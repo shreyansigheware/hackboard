@@ -6,8 +6,9 @@ Today that means checking Devfolio, then Unstop, then HackerEarth, then Devpost,
 a WhatsApp group, and still missing half of them. There is no single monthly view. This is that
 view.
 
-> **Status: session 1 of 5.** Schema, validator, stress-test generator and design sketch are in.
-> No dashboard yet, no real data yet, no refresh job yet. Nothing here is live.
+> **Status: sessions 1–4 done, session 5 partly.** The dashboard is built and filtering 238
+> real events from three sources. Performance is measured at 1,000 rows. The daily refresh
+> workflow is written but has not run on a schedule yet.
 
 Built as module [#5](https://github.com/shreyansigheware/ai-learning-plan/issues/5) of a
 [learning plan run in public](https://github.com/shreyansigheware/ai-learning-plan).
@@ -85,18 +86,37 @@ only*", with a button that drops it. Not a sad face.
 
 ## Performance targets
 
-Measured at **1,000 items**, not 40. `data/stress-test.json` exists for exactly this.
+Measured at **1,000 items**, not 40 — `data/stress-test.json` exists for exactly that, and
+`?stress=1` drops the month frame so all 1,000 render at once.
 
-| Target | How it gets checked | Before | After |
+`?novirtual=1` renders every card instead of only the visible window, so *before* and *after*
+are the same page measured against itself rather than against a guess.
+
+Numbers from `node scripts/measure.mjs`, which drives headless Chrome over the DevTools
+Protocol. Median of 7 filter runs; frame intervals sampled across a full scroll of the list.
+
+| Measure | Before (no windowing) | After (windowed) | Target |
 |---|---|---|---|
-| Scroll holds 60fps | DevTools → Performance, count dropped frames | — | — |
-| Filter/search under 100ms | `performance.now()` around the filter | — | — |
-| LCP under 1.5s on throttled 4G | Lighthouse, mobile preset | — | — |
-| No layout shift (CLS ≈ 0) | Lighthouse | — | — |
-| DOM node count flat as items grow | DevTools → Performance monitor | — | — |
+| Cards in the DOM at 1,000 rows | 1,000 | **16** | flat as items grow ✅ |
+| Total DOM nodes | 18,704 | **466** | — |
+| DOM nodes after scrolling to the middle | 18,704 | **461** | flat ✅ |
+| Filter/search response, median | 34.3 ms | **15.4 ms** | under 100 ms ✅ |
+| Filter/search response, worst of 7 | 44.4 ms | **18.1 ms** | under 100 ms ✅ |
+| Frame interval during scroll, p95 | 67.2 ms | **20.0 ms** | 16.7 ms = 60fps ⚠️ |
 
-The before/after columns get filled with real numbers as the work happens. "It feels fast" is
-not a result.
+**Reading these honestly:**
+
+- **The DOM node count is the real result.** 18,704 nodes down to 466, and flat after
+  scrolling. That is what windowing buys, and it is the number that keeps holding as the
+  dataset grows.
+- **The filter was never the bottleneck.** Both figures are already well inside the 100 ms
+  target; filtering 1,000 rows is a cheap array pass either way. The 34 ms → 15 ms difference
+  is React reconciling 1,000 cards, not the filter itself.
+- **The frame numbers are the weakest evidence here** and are not claimed as a pass. They come
+  from headless Chrome with `--disable-gpu` and a scripted scroll, which is not a finger on a
+  phone. p95 improving from 67 ms to 20 ms is a real signal about the direction; "holds 60fps"
+  is not yet proven and needs a Performance-panel recording on a real device.
+- **LCP and CLS are not measured yet.** Lighthouse against the deployed URL is outstanding.
 
 ---
 
@@ -138,30 +158,68 @@ and dates that match the pattern but aren't real (`2026-13-45`).
 
 ---
 
-## The daily refresh
+## Where the data comes from
 
-*Not built yet — session 5.* A scheduled GitHub Action will read `seeds.yml`, fetch each listing
-plus one hop to linked event pages, extract structured rows with `claude-haiku-4-5` against the
-schema above, validate, merge without clobbering locked rows, age past events into the archive,
-and commit only if something changed.
+`seeds.yml` lists the sources. Three of the five turned out to publish structured JSON, so
+those are mapped field by field:
 
-Two things worth stating plainly now:
+| Source | How | What it gives | What it doesn't |
+|---|---|---|---|
+| **Devpost** | public JSON API | global events, run dates, prizes in USD | no separate registration deadline |
+| **Unstop** | public JSON API | India-heavy, real registration deadlines, prizes in INR, team sizes, venue city | **no run dates at all** — `start_date` is null on every row |
+| **MLH** | JSON payload embedded in the page | student hackathons worldwide, run dates, venues | no prizes, no deadlines |
+| **Devfolio** | *not enabled* | — | client-rendered; its HTML contains no listings |
+| **HackerEarth** | *not enabled* | — | not inspected yet |
 
-- **"Scans the internet" honestly means the seed list plus one hop from it.** A real search step
-  is a stretch goal, not a claim to make before it exists.
-- **`last_updated` will be visible in the UI.** If the job has been silently broken for a week,
-  a visitor should be able to see that — and so should I.
+**Mapping fields beats asking a model, where a feed exists.** The issue suggests handing page
+text to `claude-haiku-4-5` because hand-written CSS selectors rot. That reasoning holds for
+HTML; it does not apply to a documented JSON endpoint, where field mapping is deterministic,
+free, and cannot hallucinate a date. The model-extraction path is still the right answer for
+Devfolio and anything else without a feed, and is not built yet.
+
+**"Scans the internet" honestly means the seed list plus one hop from it.** Right now it is not
+even that — it is the seed list, no hop. A real search step is a stretch goal, not a claim to
+make before it exists.
+
+### The daily refresh
+
+`.github/workflows/refresh.yml` runs `scripts/fetch_sources.py` at 01:30 UTC (07:00 IST): fetch
+each seed, normalise, validate, dedupe across sources, merge without clobbering locked rows,
+move finished events to the archive, and commit only if something changed. A failing seed is
+logged and skipped — one bad source must never fail the run or wipe good data.
+
+`last_updated` is shown in the footer of the site. If the job breaks silently for a week, a
+visitor can see that, and so can I.
+
+Known and deliberate: `data/hackathons.json` is committed rather than generated at build time,
+so the site is always serving something even if every source is down.
 
 ---
 
 ## Stack
 
-Not chosen yet; decided at the start of session 2 and recorded in `reflection.md` with the
-reasoning. Session 1 is deliberately dependency-free.
+**Vite + React + TypeScript, with [TanStack Virtual](https://tanstack.com/virtual) for
+windowing**, deployed to GitHub Pages by a workflow. The virtualiser is the part not worth
+hand-rolling first time, and TypeScript caught several data-shape mistakes before they
+rendered.
 
-Worth knowing: **there is no Node on the machine this was started on** — stock macOS `python3`
-only, and no Homebrew. That is why the data tooling is Python, which also means the daily Action
-needs no JS toolchain. It does need resolving before a Vite/React frontend can be built.
+**The data tooling is Python and stays Python.** The machine this started on had no Node and no
+Homebrew, so session 1 was written against stock `python3` — and that turned out to be the
+better split anyway: the daily refresh needs no JS toolchain on the runner, and the frontend
+never touches the ingest code. Node 24 was installed later, for the frontend only.
+
+### Running it
+
+```bash
+npm install
+npm run dev      # copies data/ into public/ and starts Vite
+npm run build    # typecheck + production build into dist/
+node scripts/measure.mjs http://localhost:4173/hackboard/   # performance numbers
+```
+
+Query parameters, all measurement-only and not reachable from the UI:
+`?stress=1` loads the 1,000-row fixture and drops the month frame · `?novirtual=1` renders
+every card · `?month=all` shows every month at once.
 
 ---
 
@@ -169,11 +227,19 @@ needs no JS toolchain. It does need resolving before a Vite/React frontend can b
 
 | # | ~Hrs | What | Status |
 |---|---|---|---|
-| 1 | 3 | Repo, `CLAUDE.md`, schema, 40 real rows, 1,000-row generator, design sketch | scaffolding done; **real rows outstanding** |
-| 2 | 4 | Layout, cards, month selector — static, no filtering | |
-| 3 | 4 | Filters, URL state, search, empty + loading states | |
-| 4 | 3 | Virtualisation, measurement, mobile pass, Pages deploy, README | |
-| 5 | 4 | Seeds, fetch + extract + merge, the scheduled workflow, `last_updated`, reflection | |
+| 1 | 3 | Repo, `CLAUDE.md`, schema, real rows, 1,000-row generator, design sketch | **done** — 238 real events, not 40 |
+| 2 | 4 | Layout, cards, month selector | **done** |
+| 3 | 4 | Filters, URL state, search, empty + loading states | **done** |
+| 4 | 3 | Virtualisation, measurement, mobile pass, Pages deploy, README | **done** except Lighthouse |
+| 5 | 4 | Seeds, fetch + extract + merge, the scheduled workflow, `last_updated`, reflection | workflow written, **not yet run on schedule** |
+
+### Outstanding
+
+- Lighthouse on the deployed URL: LCP and CLS are the two targets with no number against them.
+- A Performance-panel recording on a real phone, to replace the weak headless frame numbers.
+- The daily workflow has to actually run green twice and commit one real change before #5 closes.
+- Devfolio needs the model-extraction path; HackerEarth has not been inspected.
+- Keyboard and screen-reader pass beyond `/` to focus search and `Esc` to close the sheet.
 
 Not done when it works on a laptop. Done when someone else opens the link on their phone and
 finds a hackathon.

@@ -115,11 +115,13 @@ def build(count, seed, today):
             registration_closes = starts - timedelta(days=rng.randint(0, 30))
 
         if rng.random() < 0.28:
-            prize_inr = None
+            prize = None
         elif rng.random() < 0.08:
-            prize_inr = 0
+            prize = {"amount": 0, "currency": "INR"}
+        elif rng.random() < 0.25:
+            prize = {"amount": rng.choice([1, 2, 5, 10, 25, 50, 100]) * 1000, "currency": "USD"}
         else:
-            prize_inr = rng.choice([10, 25, 50, 100, 200, 300, 500, 1000, 2500]) * 1000
+            prize = {"amount": rng.choice([10, 25, 50, 100, 200, 300, 500, 1000, 2500]) * 1000, "currency": "INR"}
 
         scope = weighted(rng, scopes)
         team_min = weighted(rng, [(1, 55), (2, 35), (3, 10)])
@@ -142,10 +144,11 @@ def build(count, seed, today):
             "starts": starts.isoformat(),
             "ends": ends.isoformat(),
             "registration_closes": registration_closes.isoformat() if registration_closes else None,
-            "prize_inr": prize_inr,
+            "prize": prize,
             "team": {"min": team_min, "max": team_max},
             "eligibility": weighted(rng, eligibility),
             "url": f"https://example.invalid/synthetic/{index:04d}",
+            "source": "manual",
             "source_url": "https://example.invalid/synthetic",
             "first_seen": today.isoformat(),
             "last_seen": today.isoformat(),

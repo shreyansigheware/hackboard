@@ -1,0 +1,44 @@
+# Sources the daily job reads. Seeds are data, not code -- adding one should be a one-line PR.
+#
+# kind: json    -- the site exposes structured JSON, so rows are mapped field by field and
+#                  no model is involved. Deterministic, free, and it cannot hallucinate.
+# kind: html    -- no structured feed; the page text goes to claude-haiku-4-5 with the schema.
+#                  Not implemented yet (session 5).
+#
+# Devfolio is listed and deliberately not enabled: it is a client-rendered app that ships no
+# hackathon data in its HTML, so it needs either the html path or a headless fetch. Left here
+# so the gap is visible rather than forgotten.
+
+sources:
+  - id: devpost
+    kind: json
+    enabled: true
+    url: "https://devpost.com/api/hackathons?status[]=open&page={page}"
+    pages: 6
+    notes: "Public JSON. Global coverage, prizes in USD, no separate registration deadline."
+
+  - id: unstop
+    kind: json
+    enabled: true
+    url: "https://unstop.com/api/public/opportunity/search-result?opportunity=hackathons&page={page}&per_page=30&oppstatus=open"
+    pages: 5
+    notes: "Public JSON. India-heavy, prizes in INR, has a real registration deadline field."
+
+  - id: mlh
+    kind: json
+    enabled: true
+    url: "https://www.mlh.com/seasons/{season}/events"
+    embedded_json: true
+    notes: "Next.js payload embedded in the page. Student hackathons, global, no prize data. {season} is resolved at run time -- MLH rolls the season over mid-year and a stale year returns zero upcoming events silently."
+
+  - id: devfolio
+    kind: html
+    enabled: false
+    url: "https://devfolio.co/hackathons/open"
+    notes: "Client-rendered; HTML contains no listings. Needs the html extraction path."
+
+  - id: hackerearth
+    kind: html
+    enabled: false
+    url: "https://www.hackerearth.com/challenges/hackathon/"
+    notes: "Not yet inspected."

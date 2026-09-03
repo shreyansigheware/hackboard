@@ -1,0 +1,269 @@
+/* Tokens and component styles carried over from design/sketch.html, which is where the
+   decisions were made. Additions below the marker are things the static sketch could not
+   exercise: the scroll container the virtualiser needs, the mobile sheet, focus states. */
+/* ---- tokens ------------------------------------------------------------
+   Five colours carry the whole thing: bg, surface, text, muted, accent.
+   Semantic colours sit on top and are used sparingly enough to still mean
+   something -- red only ever means "this deadline is close".
+   Light is the base; dark follows the system setting, which is the default.
+------------------------------------------------------------------------ */
+:root {
+  --bg:      #F4F5F7;
+  --surface: #FFFFFF;
+  --raise:   #FBFBFC;
+  --text:    #14181D;
+  --muted:   #6A7480;
+  --rule:    #DFE3E8;
+  --accent:  #2B5CE6;
+
+  --urgent:  #C0392B;
+  --soon:    #B26B00;
+  --open:    #1E7A4B;
+
+  --s1: 4px;  --s2: 8px;  --s3: 12px; --s4: 16px;
+  --s5: 24px; --s6: 32px; --s7: 48px;
+  --radius: 10px;
+
+  --t--1: 0.75rem;
+  --t-0:  0.875rem;
+  --t-1:  1rem;
+  --t-2:  1.25rem;
+  --t-3:  1.75rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:      #0E1116;
+    --surface: #161A21;
+    --raise:   #1C2128;
+    --text:    #E8EBEF;
+    --muted:   #929CA9;
+    --rule:    #262C35;
+    --accent:  #6E97FF;
+    --urgent:  #FF6B5A;
+    --soon:    #E0A33C;
+    --open:    #4FC98A;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1116; --surface: #161A21; --raise: #1C2128;
+  --text: #E8EBEF; --muted: #929CA9; --rule: #262C35; --accent: #6E97FF;
+  --urgent: #FF6B5A; --soon: #E0A33C; --open: #4FC98A;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  /* One typeface, two weights. Plex Sans earns it over Inter here because the view is
+     mostly dates and prize figures, and its tabular numerals keep columns from dancing. */
+  font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  font-size: var(--t-0);
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}
+h1, h2, h3 { margin: 0; font-weight: 600; line-height: 1.2; }
+button { font: inherit; color: inherit; cursor: pointer; }
+
+/* ---- shell ---- */
+.top {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; gap: var(--s4);
+  padding: var(--s3) var(--s5);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--rule);
+}
+.wordmark { font-size: var(--t-1); font-weight: 600; letter-spacing: -0.01em; }
+.wordmark span { color: var(--accent); }
+
+.month { display: flex; align-items: center; gap: var(--s2); margin-inline: auto; }
+.month button {
+  width: 32px; height: 32px; border: 1px solid var(--rule); background: var(--surface);
+  border-radius: var(--radius); line-height: 1;
+}
+.month .label { font-size: var(--t-1); font-weight: 600; min-width: 11ch; text-align: center; }
+
+.search {
+  width: 260px; padding: var(--s2) var(--s3);
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  background: var(--surface); color: var(--text);
+}
+.search::placeholder { color: var(--muted); }
+
+.layout {
+  display: grid; grid-template-columns: 248px 1fr;
+  gap: var(--s6); align-items: start;
+  max-width: 1320px; margin: 0 auto; padding: var(--s5);
+}
+
+/* ---- filter rail ---- */
+.rail { position: sticky; top: 72px; display: grid; gap: var(--s5); }
+.group > h3 {
+  font-size: var(--t--1); text-transform: uppercase; letter-spacing: 0.07em;
+  color: var(--muted); margin-bottom: var(--s2);
+}
+.opt {
+  display: flex; align-items: center; gap: var(--s2);
+  padding: var(--s1) 0; color: var(--text);
+}
+.opt input { accent-color: var(--accent); }
+/* The count next to each option is what makes a filter worth clicking or not.
+   Greyed to zero when a combination would empty the list. */
+.opt .n { margin-left: auto; color: var(--muted); font-size: var(--t--1); }
+.opt.zero, .opt.zero .n { color: color-mix(in srgb, var(--muted) 55%, transparent); }
+
+/* ---- results header ---- */
+.results-head {
+  display: flex; align-items: center; flex-wrap: wrap; gap: var(--s2);
+  margin-bottom: var(--s4);
+}
+.count { font-size: var(--t-2); font-weight: 600; }
+.count em { font-style: normal; color: var(--muted); font-weight: 400; font-size: var(--t-0); }
+.chip {
+  display: inline-flex; align-items: center; gap: var(--s1);
+  padding: var(--s1) var(--s2); border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--accent); font-size: var(--t--1); border: 0;
+}
+.chip b { font-weight: 600; }
+.clear { margin-left: auto; background: none; border: 0; color: var(--muted); text-decoration: underline; }
+
+/* ---- cards ---- */
+.grid { display: grid; gap: var(--s3); grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.card {
+  background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: var(--s4); display: grid; gap: var(--s3);
+  transition: border-color 160ms ease-out, transform 160ms ease-out;
+}
+.card:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--rule)); transform: translateY(-1px); }
+.card h2 { font-size: var(--t-1); }
+.org { color: var(--muted); font-size: var(--t--1); }
+.meta { display: flex; flex-wrap: wrap; gap: var(--s1) var(--s3); font-size: var(--t--1); color: var(--muted); }
+.meta b { color: var(--text); font-weight: 600; }
+.tags { display: flex; flex-wrap: wrap; gap: var(--s1); }
+.tag {
+  font-size: var(--t--1); padding: 2px var(--s2); border-radius: 999px;
+  background: var(--raise); border: 1px solid var(--rule); color: var(--muted);
+}
+.foot { display: flex; align-items: center; gap: var(--s3); padding-top: var(--s2); border-top: 1px solid var(--rule); }
+/* Urgency has to read before the text does: a coloured bar plus a dot, not colour alone,
+   so it still works for a red-green colour-blind visitor and in a screenshot. */
+.deadline { display: flex; align-items: center; gap: var(--s2); font-size: var(--t--1); font-weight: 600; }
+.deadline::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+.d-urgent { color: var(--urgent); }
+.d-soon   { color: var(--soon); }
+.d-open   { color: var(--open); }
+.card.urgent { box-shadow: inset 3px 0 0 var(--urgent); }
+.go { margin-left: auto; color: var(--accent); text-decoration: none; font-weight: 600; font-size: var(--t--1); }
+
+/* ---- the empty state, which is a feature ---- */
+.empty { padding: var(--s7) var(--s5); text-align: center; border: 1px dashed var(--rule); border-radius: var(--radius); }
+.empty h2 { font-size: var(--t-1); margin-bottom: var(--s2); }
+.empty p { color: var(--muted); margin: 0 0 var(--s4); }
+.empty button { padding: var(--s2) var(--s4); border-radius: var(--radius); border: 1px solid var(--accent); background: none; color: var(--accent); }
+
+.stamp { max-width: 1320px; margin: 0 auto; padding: 0 var(--s5) var(--s7); color: var(--muted); font-size: var(--t--1); }
+.stamp a { color: var(--accent); }
+
+/* ---- mobile: the rail becomes a sheet behind a sticky button ---- */
+.sheet-btn {
+  display: none; position: fixed; left: 50%; bottom: var(--s5); transform: translateX(-50%);
+  align-items: center; gap: var(--s2); z-index: 20;
+  padding: var(--s3) var(--s5); border-radius: 999px; border: 0;
+  background: var(--accent); color: #fff; font-weight: 600;
+  box-shadow: 0 6px 24px rgb(0 0 0 / 0.28);
+}
+
+@media (max-width: 860px) {
+  .layout { grid-template-columns: 1fr; padding: var(--s4); }
+  .rail { display: none; }
+  .search { width: 100%; }
+  .top { flex-wrap: wrap; }
+  .month { order: 3; width: 100%; margin: 0; justify-content: space-between; }
+  .grid { grid-template-columns: 1fr; }
+  .sheet-btn { display: flex; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* ---------------------------------------------------------------- app-only additions ---- */
+
+#root { min-height: 100vh; display: flex; flex-direction: column; }
+.layout { flex: 1; width: 100%; }
+
+/* The virtualiser measures this element, so it owns the scrolling rather than the page.
+   Sized against the small viewport unit so mobile browser chrome cannot clip the last row. */
+.scroll {
+  height: calc(100svh - 190px);
+  min-height: 320px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: var(--s1);
+}
+.grid-row { display: grid; gap: var(--s3); align-content: start; padding-bottom: var(--s3); }
+.card { margin: 0; }
+
+.title { color: inherit; text-decoration: none; }
+.title:hover { text-decoration: underline; }
+.money { color: var(--text); font-weight: 600; }
+.d-none { color: var(--muted); font-weight: 400; }
+.d-none::before { background: var(--muted); }
+
+fieldset.group { border: 0; margin: 0; padding: 0; }
+legend {
+  font-size: var(--t--1); text-transform: uppercase; letter-spacing: 0.07em;
+  color: var(--muted); margin-bottom: var(--s2); padding: 0;
+}
+.opt { cursor: pointer; }
+.opt input:disabled { cursor: not-allowed; }
+.opt > span:first-of-type { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+:where(a, button, input, [tabindex]):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.chip { cursor: pointer; }
+.chip:hover { background: color-mix(in srgb, var(--accent) 22%, transparent); }
+.clear { cursor: pointer; }
+.empty button { cursor: pointer; }
+
+.sheet-head { display: none; }
+.scrim { display: none; }
+
+@media (max-width: 860px) {
+  /* The rail becomes a sheet. It is hidden rather than removed so the checkbox state and
+     scroll position survive opening and closing it. */
+  .rail {
+    display: grid;
+    position: fixed;
+    inset: auto 0 0 0;
+    z-index: 30;
+    max-height: 82svh;
+    overflow-y: auto;
+    background: var(--surface);
+    border-top: 1px solid var(--rule);
+    border-radius: var(--radius) var(--radius) 0 0;
+    padding: var(--s4) var(--s5) var(--s7);
+    transform: translateY(101%);
+    transition: transform 180ms ease-out;
+    box-shadow: 0 -8px 32px rgb(0 0 0 / 0.24);
+  }
+  .rail.open { transform: none; }
+  .sheet-head {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: var(--s4);
+  }
+  .sheet-head button { background: none; border: 0; font-size: var(--t-2); line-height: 1; padding: var(--s1) var(--s2); }
+  .scrim { display: block; position: fixed; inset: 0; z-index: 25; background: rgb(0 0 0 / 0.45); }
+  .scroll { height: auto; overflow: visible; }
+  .stamp { padding-bottom: 96px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rail { transition: none; }
+}

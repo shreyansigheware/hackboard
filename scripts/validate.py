@@ -90,29 +90,24 @@ def validate_row(row, allow_synthetic=False):
         spec = PROPS.get(field)
         if spec is None:
             continue
-        if field == "organiser" and isinstance(value, dict):
-            for sub in ("name", "type"):
+        if field in ("organiser", "team", "prize") and isinstance(value, dict):
+            for sub in spec.get("required", []):
                 if sub not in value:
-                    errors.append(f"organiser.{sub}: missing (required)")
+                    errors.append(f"{field}.{sub}: missing (required)")
             for sub, sub_val in value.items():
                 sub_spec = spec["properties"].get(sub)
                 if sub_spec is None:
-                    errors.append(f"organiser.{sub}: not in schema")
+                    errors.append(f"{field}.{sub}: not in schema")
                 else:
-                    _check_scalar(f"organiser.{sub}", sub_val, sub_spec, errors)
-        elif field == "team" and isinstance(value, dict):
-            for sub in ("min", "max"):
-                if sub not in value:
-                    errors.append(f"team.{sub}: missing (required)")
-            for sub, sub_val in value.items():
-                sub_spec = spec["properties"].get(sub)
-                if sub_spec is None:
-                    errors.append(f"team.{sub}: not in schema")
-                else:
-                    _check_scalar(f"team.{sub}", sub_val, sub_spec, errors)
-            lo, hi = value.get("min"), value.get("max")
-            if isinstance(lo, int) and isinstance(hi, int) and hi < lo:
-                errors.append(f"team: max {hi} is below min {lo}")
+                    _check_scalar(f"{field}.{sub}", sub_val, sub_spec, errors)
+            if field == "team":
+                lo, hi = value.get("min"), value.get("max")
+                if isinstance(lo, int) and isinstance(hi, int) and hi < lo:
+                    errors.append(f"team: max {hi} is below min {lo}")
+        elif field == "also_seen_at" and isinstance(value, list):
+            for link in value:
+                if not isinstance(link, str) or not re.match(r"^https?://", link):
+                    errors.append(f"also_seen_at: {link!r} is not a URL")
         elif field == "themes" and isinstance(value, list):
             item_spec = spec["items"]
             if not value:
@@ -149,6 +144,12 @@ def validate_row(row, allow_synthetic=False):
     starts, ends = parsed.get("starts"), parsed.get("ends")
     if starts and ends and ends < starts:
         errors.append(f"ends {row['ends']} is before starts {row['starts']}")
+    if bool(row.get("starts")) != bool(row.get("ends")):
+        errors.append("starts and ends must both be present or both be null")
+    # A row with neither run dates nor a deadline cannot be placed in any month, so it has
+    # nowhere to appear and no reason to exist.
+    if not row.get("starts") and not row.get("registration_closes"):
+        errors.append("no month anchor: needs either run dates or a registration deadline")
     closes = parsed.get("registration_closes")
     if closes and starts and closes > starts:
         errors.append(f"registration_closes {row['registration_closes']} is after starts {row['starts']}")

@@ -1,0 +1,43 @@
+name: Daily refresh
+
+on:
+  schedule:
+    # 01:30 UTC = 07:00 IST. GitHub's scheduled runs can be minutes late and are dropped
+    # entirely under load, so nothing here may assume an exact 24h gap.
+    - cron: "30 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch sources and merge
+        # Dependency-free: stock python3 on the runner, no install step.
+        run: python3 scripts/fetch_sources.py
+
+      - name: Validate the merged data
+        # Belt and braces -- fetch_sources.py already drops invalid rows, but if a bug ever
+        # lets one through, the run fails here instead of committing bad data.
+        run: python3 scripts/validate.py data/hackathons.json
+
+      - name: Commit only if something changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/; then
+            echo "No change in data/ -- nothing to commit."
+            exit 0
+          fi
+          COUNT=$(python3 -c "import json;print(len(json.load(open('data/hackathons.json'))['events']))")
+          git add data/
+          git commit -m "Daily refresh: ${COUNT} events"
+          git push
