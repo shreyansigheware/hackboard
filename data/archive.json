@@ -1,0 +1,5 @@
+{
+  "last_updated": null,
+  "note": "Events whose end date has passed. They move here rather than vanishing, so a link shared last month still resolves to something.",
+  "events": []
+}

@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en" data-sketch>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hackboard — design sketch</title>
+<!--
+  Static design sketch. Fake data, no filtering logic, no framework.
+
+  Its only job is to settle the decisions that are expensive to change later: card density,
+  the filter rail, how deadline urgency reads at a glance, and whether the type scale holds
+  at 375px. Fifteen minutes here rather than two hours refactoring a layout in session 3.
+
+  Nothing in this file gets reused as-is. It is a reference to build against and to argue
+  with, and it stays in the repo as the record of what was decided and why.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* ---- tokens ------------------------------------------------------------
+   Five colours carry the whole thing: bg, surface, text, muted, accent.
+   Semantic colours sit on top and are used sparingly enough to still mean
+   something -- red only ever means "this deadline is close".
+   Light is the base; dark follows the system setting, which is the default.
+------------------------------------------------------------------------ */
+:root {
+  --bg:      #F4F5F7;
+  --surface: #FFFFFF;
+  --raise:   #FBFBFC;
+  --text:    #14181D;
+  --muted:   #6A7480;
+  --rule:    #DFE3E8;
+  --accent:  #2B5CE6;
+
+  --urgent:  #C0392B;
+  --soon:    #B26B00;
+  --open:    #1E7A4B;
+
+  --s1: 4px;  --s2: 8px;  --s3: 12px; --s4: 16px;
+  --s5: 24px; --s6: 32px; --s7: 48px;
+  --radius: 10px;
+
+  --t--1: 0.75rem;
+  --t-0:  0.875rem;
+  --t-1:  1rem;
+  --t-2:  1.25rem;
+  --t-3:  1.75rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:      #0E1116;
+    --surface: #161A21;
+    --raise:   #1C2128;
+    --text:    #E8EBEF;
+    --muted:   #929CA9;
+    --rule:    #262C35;
+    --accent:  #6E97FF;
+    --urgent:  #FF6B5A;
+    --soon:    #E0A33C;
+    --open:    #4FC98A;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1116; --surface: #161A21; --raise: #1C2128;
+  --text: #E8EBEF; --muted: #929CA9; --rule: #262C35; --accent: #6E97FF;
+  --urgent: #FF6B5A; --soon: #E0A33C; --open: #4FC98A;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  /* One typeface, two weights. Plex Sans earns it over Inter here because the view is
+     mostly dates and prize figures, and its tabular numerals keep columns from dancing. */
+  font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  font-size: var(--t-0);
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}
+h1, h2, h3 { margin: 0; font-weight: 600; line-height: 1.2; }
+button { font: inherit; color: inherit; cursor: pointer; }
+
+/* ---- shell ---- */
+.top {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; gap: var(--s4);
+  padding: var(--s3) var(--s5);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--rule);
+}
+.wordmark { font-size: var(--t-1); font-weight: 600; letter-spacing: -0.01em; }
+.wordmark span { color: var(--accent); }
+
+.month { display: flex; align-items: center; gap: var(--s2); margin-inline: auto; }
+.month button {
+  width: 32px; height: 32px; border: 1px solid var(--rule); background: var(--surface);
+  border-radius: var(--radius); line-height: 1;
+}
+.month .label { font-size: var(--t-1); font-weight: 600; min-width: 11ch; text-align: center; }
+
+.search {
+  width: 260px; padding: var(--s2) var(--s3);
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  background: var(--surface); color: var(--text);
+}
+.search::placeholder { color: var(--muted); }
+
+.layout {
+  display: grid; grid-template-columns: 248px 1fr;
+  gap: var(--s6); align-items: start;
+  max-width: 1320px; margin: 0 auto; padding: var(--s5);
+}
+
+/* ---- filter rail ---- */
+.rail { position: sticky; top: 72px; display: grid; gap: var(--s5); }
+.group > h3 {
+  font-size: var(--t--1); text-transform: uppercase; letter-spacing: 0.07em;
+  color: var(--muted); margin-bottom: var(--s2);
+}
+.opt {
+  display: flex; align-items: center; gap: var(--s2);
+  padding: var(--s1) 0; color: var(--text);
+}
+.opt input { accent-color: var(--accent); }
+/* The count next to each option is what makes a filter worth clicking or not.
+   Greyed to zero when a combination would empty the list. */
+.opt .n { margin-left: auto; color: var(--muted); font-size: var(--t--1); }
+.opt.zero, .opt.zero .n { color: color-mix(in srgb, var(--muted) 55%, transparent); }
+
+/* ---- results header ---- */
+.results-head {
+  display: flex; align-items: center; flex-wrap: wrap; gap: var(--s2);
+  margin-bottom: var(--s4);
+}
+.count { font-size: var(--t-2); font-weight: 600; }
+.count em { font-style: normal; color: var(--muted); font-weight: 400; font-size: var(--t-0); }
+.chip {
+  display: inline-flex; align-items: center; gap: var(--s1);
+  padding: var(--s1) var(--s2); border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--accent); font-size: var(--t--1); border: 0;
+}
+.chip b { font-weight: 600; }
+.clear { margin-left: auto; background: none; border: 0; color: var(--muted); text-decoration: underline; }
+
+/* ---- cards ---- */
+.grid { display: grid; gap: var(--s3); grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.card {
+  background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: var(--s4); display: grid; gap: var(--s3);
+  transition: border-color 160ms ease-out, transform 160ms ease-out;
+}
+.card:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--rule)); transform: translateY(-1px); }
+.card h2 { font-size: var(--t-1); }
+.org { color: var(--muted); font-size: var(--t--1); }
+.meta { display: flex; flex-wrap: wrap; gap: var(--s1) var(--s3); font-size: var(--t--1); color: var(--muted); }
+.meta b { color: var(--text); font-weight: 600; }
+.tags { display: flex; flex-wrap: wrap; gap: var(--s1); }
+.tag {
+  font-size: var(--t--1); padding: 2px var(--s2); border-radius: 999px;
+  background: var(--raise); border: 1px solid var(--rule); color: var(--muted);
+}
+.foot { display: flex; align-items: center; gap: var(--s3); padding-top: var(--s2); border-top: 1px solid var(--rule); }
+/* Urgency has to read before the text does: a coloured bar plus a dot, not colour alone,
+   so it still works for a red-green colour-blind visitor and in a screenshot. */
+.deadline { display: flex; align-items: center; gap: var(--s2); font-size: var(--t--1); font-weight: 600; }
+.deadline::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+.d-urgent { color: var(--urgent); }
+.d-soon   { color: var(--soon); }
+.d-open   { color: var(--open); }
+.card.urgent { box-shadow: inset 3px 0 0 var(--urgent); }
+.go { margin-left: auto; color: var(--accent); text-decoration: none; font-weight: 600; font-size: var(--t--1); }
+
+/* ---- the empty state, which is a feature ---- */
+.empty { padding: var(--s7) var(--s5); text-align: center; border: 1px dashed var(--rule); border-radius: var(--radius); }
+.empty h2 { font-size: var(--t-1); margin-bottom: var(--s2); }
+.empty p { color: var(--muted); margin: 0 0 var(--s4); }
+.empty button { padding: var(--s2) var(--s4); border-radius: var(--radius); border: 1px solid var(--accent); background: none; color: var(--accent); }
+
+.stamp { max-width: 1320px; margin: 0 auto; padding: 0 var(--s5) var(--s7); color: var(--muted); font-size: var(--t--1); }
+.stamp a { color: var(--accent); }
+
+/* ---- mobile: the rail becomes a sheet behind a sticky button ---- */
+.sheet-btn {
+  display: none; position: fixed; left: 50%; bottom: var(--s5); transform: translateX(-50%);
+  align-items: center; gap: var(--s2); z-index: 20;
+  padding: var(--s3) var(--s5); border-radius: 999px; border: 0;
+  background: var(--accent); color: #fff; font-weight: 600;
+  box-shadow: 0 6px 24px rgb(0 0 0 / 0.28);
+}
+
+@media (max-width: 860px) {
+  .layout { grid-template-columns: 1fr; padding: var(--s4); }
+  .rail { display: none; }
+  .search { width: 100%; }
+  .top { flex-wrap: wrap; }
+  .month { order: 3; width: 100%; margin: 0; justify-content: space-between; }
+  .grid { grid-template-columns: 1fr; }
+  .sheet-btn { display: flex; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+.sketch-note {
+  max-width: 1320px; margin: 0 auto; padding: var(--s4) var(--s5) 0;
+  color: var(--muted); font-size: var(--t--1);
+}
+</style>
+</head>
+<body>
+
+<p class="sketch-note">
+  <b>Design sketch — fake data, nothing works.</b> Resize to 375px to check the mobile pass.
+</p>
+
+<header class="top">
+  <div class="wordmark">hack<span>board</span></div>
+  <nav class="month" aria-label="Month">
+    <button aria-label="Previous month">‹</button>
+    <span class="label">September 2026</span>
+    <button aria-label="Next month">›</button>
+  </nav>
+  <input class="search" type="search" placeholder="Search  /" aria-label="Search hackathons">
+</header>
+
+<div class="layout">
+  <aside class="rail" aria-label="Filters">
+    <div class="group">
+      <h3>Scope</h3>
+      <label class="opt"><input type="checkbox" checked> Global <span class="n">18</span></label>
+      <label class="opt"><input type="checkbox" checked> India <span class="n">96</span></label>
+      <label class="opt"><input type="checkbox"> City-specific <span class="n">54</span></label>
+    </div>
+    <div class="group">
+      <h3>City</h3>
+      <label class="opt"><input type="checkbox" checked> Bangalore <span class="n">12</span></label>
+      <label class="opt"><input type="checkbox"> Hyderabad <span class="n">9</span></label>
+      <label class="opt"><input type="checkbox"> Delhi NCR <span class="n">7</span></label>
+      <label class="opt zero"><input type="checkbox" disabled> Kochi <span class="n">0</span></label>
+    </div>
+    <div class="group">
+      <h3>Mode</h3>
+      <label class="opt"><input type="checkbox" checked> Online <span class="n">61</span></label>
+      <label class="opt"><input type="checkbox"> In-person <span class="n">48</span></label>
+      <label class="opt"><input type="checkbox"> Hybrid <span class="n">27</span></label>
+    </div>
+    <div class="group">
+      <h3>Timing</h3>
+      <label class="opt"><input type="checkbox" checked> Registration open <span class="n">88</span></label>
+      <label class="opt"><input type="checkbox"> Closes this week <span class="n">14</span></label>
+      <label class="opt"><input type="checkbox"> Starts this week <span class="n">6</span></label>
+    </div>
+  </aside>
+
+  <main>
+    <div class="results-head">
+      <div class="count">37 <em>of 214</em></div>
+      <button class="chip"><b>Bangalore</b> ×</button>
+      <button class="chip"><b>Online</b> ×</button>
+      <button class="chip"><b>AI/ML</b> ×</button>
+      <button class="clear">Clear all</button>
+    </div>
+
+    <div class="grid">
+      <article class="card urgent">
+        <div>
+          <h2>Northgate Applied AI Sprint</h2>
+          <div class="org">Northgate University · University</div>
+        </div>
+        <div class="meta">
+          <span><b>18–20 Sep</b></span>
+          <span>Bangalore · Hybrid</span>
+          <span><b>₹5,00,000</b></span>
+          <span>Teams of 2–4</span>
+        </div>
+        <div class="tags"><span class="tag">AI/ML</span><span class="tag">HealthTech</span><span class="tag">Students only</span></div>
+        <div class="foot">
+          <span class="deadline d-urgent">Closes in 2 days</span>
+          <a class="go" href="#">Open →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div>
+          <h2>Openstack Collective Autumn Jam</h2>
+          <div class="org">Openstack Collective · Community</div>
+        </div>
+        <div class="meta">
+          <span><b>24–26 Sep</b></span>
+          <span>Online</span>
+          <span>No cash prize</span>
+          <span>Solo allowed</span>
+        </div>
+        <div class="tags"><span class="tag">Open Source</span><span class="tag">Open to all</span></div>
+        <div class="foot">
+          <span class="deadline d-soon">Closes in 9 days</span>
+          <a class="go" href="#">Open →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div>
+          <h2>Meridian FinTech Challenge</h2>
+          <div class="org">Meridian Labs · Company</div>
+        </div>
+        <div class="meta">
+          <span><b>29 Sep – 1 Oct</b></span>
+          <span>Mumbai · In-person</span>
+          <span><b>₹10,00,000</b></span>
+          <span>Teams of 3–5</span>
+        </div>
+        <div class="tags"><span class="tag">FinTech</span><span class="tag">AI/ML</span><span class="tag">Open to all</span></div>
+        <div class="foot">
+          <span class="deadline d-open">Closes in 3 weeks</span>
+          <a class="go" href="#">Open →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div>
+          <h2>Civic Data Office Sustainability Datathon</h2>
+          <div class="org">Civic Data Office · Government</div>
+        </div>
+        <div class="meta">
+          <span><b>12–14 Sep</b></span>
+          <span>India · Online</span>
+          <span><b>₹2,00,000</b></span>
+          <span>Teams of 1–4</span>
+        </div>
+        <div class="tags"><span class="tag">Sustainability</span><span class="tag">Open to all</span></div>
+        <div class="foot">
+          <span class="deadline d-open">Deadline not stated</span>
+          <a class="go" href="#">Open →</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="empty" style="margin-top: var(--s6)">
+      <h2>No matches this month</h2>
+      <p>The closest thing is 6 events if you drop <b>Women only</b>.</p>
+      <button>Remove “Women only”</button>
+    </div>
+  </main>
+</div>
+
+<p class="stamp">Data last updated 3 Sep 2026, 06:12 IST · 214 events this month · <a href="#">how this list is built</a></p>
+
+<button class="sheet-btn">Filters <span>· 3</span></button>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "last_updated": null,
+  "note": "Real, verified events only. Every row needs a working source_url. Synthetic rows belong in stress-test.json and are rejected by scripts/validate.py.",
+  "events": []
+}
