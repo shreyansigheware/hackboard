@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
+    <!-- Status bar matches the app instead of glaring white. Two entries so it follows the
+         viewer's theme rather than pinning one. -->
+    <meta name="theme-color" content="#F4F5F7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0E1116" media="(prefers-color-scheme: dark)" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+    <!-- iOS ignores the manifest icons for the home screen and uses this one. -->
+    <link rel="apple-touch-icon" href="./icons/icon-180.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="hackboard" />
     <meta name="description" content="Every hackathon happening this month, filterable down to the ones you can actually enter." />
     <title>hackboard — hackathons this month</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />

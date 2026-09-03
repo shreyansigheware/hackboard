@@ -56,8 +56,30 @@ explain it. When you add a file, say in one line what it is for.
 
 ## Stack
 
-Not chosen yet — decided at the start of session 2 and recorded in `reflection.md` with one
-line on why. Session 1 is deliberately dependency-free: plain Node scripts, no build step.
+**Frontend:** Vite + React + TypeScript, TanStack Virtual for windowing, deployed to GitHub
+Pages by `.github/workflows/deploy.yml`.
 
-Candidates from the issue: Vite + React + TypeScript + TanStack Virtual (recommended), or
-vanilla HTML/CSS/JS with a hand-rolled virtual scroller if the performance bar still holds.
+**Data tooling:** Python 3, standard library only, no dependencies. It started that way because
+the machine had no Node, and it stays that way because the daily refresh then needs no JS
+toolchain on the runner and the ingest code never touches the frontend.
+
+Two workflows, and they are chained: `refresh.yml` fetches and commits data, then *calls*
+`deploy.yml`. A push made with `GITHUB_TOKEN` does not trigger workflows, so without that call
+the data updates and the site never republishes.
+
+## PWA rules
+
+Tracked by [ai-learning-plan#6](https://github.com/shreyansigheware/ai-learning-plan/issues/6).
+The constraint is a Progressive Web App — **no Expo, no React Native, no native toolchain, no
+app store**. The course that issue names teaches Expo/React Native; that is not this repo.
+
+- The service worker is registered under `import.meta.env.BASE_URL`, not `/`. This is a project
+  page: a worker registered at the origin root is out of scope and silently controls nothing.
+- App shell is cache-first, data is stale-while-revalidate. Offline must show the last known
+  list, never an error page.
+- `static/sw.js` carries a `__BUILD__` placeholder stamped at build time. Do not remove it —
+  without a version, a returning visitor is served their first bundle forever.
+- Never use `navigator.onLine` on its own to decide "offline". It reports true behind a captive
+  portal. `isReachable()` in `src/data.ts` asks the network a real question.
+- `100dvh`/`100svh`, never `100vh`. Safe-area insets on anything touching an edge. 44px touch
+  targets. No hover-only affordances.

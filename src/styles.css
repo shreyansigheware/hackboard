@@ -267,3 +267,81 @@ legend {
 @media (prefers-reduced-motion: reduce) {
   .rail { transition: none; }
 }
+
+/* ------------------------------------------------------------------ mobile app feel ---- */
+
+/* viewport-fit=cover lets the page use the full screen, which also means the header can sit
+   under the notch and the filter button under the home indicator unless the insets are
+   respected explicitly. */
+.top {
+  padding-top: max(var(--s3), env(safe-area-inset-top));
+  padding-left: max(var(--s5), env(safe-area-inset-left));
+  padding-right: max(var(--s5), env(safe-area-inset-right));
+}
+.sheet-btn { bottom: max(var(--s5), calc(env(safe-area-inset-bottom) + var(--s3))); }
+.stamp { padding-bottom: max(var(--s7), calc(env(safe-area-inset-bottom) + var(--s5))); }
+
+/* Touch targets. 44px is the floor; a checkbox row that is 22px tall is a row you miss. */
+@media (pointer: coarse) {
+  .opt { min-height: 44px; }
+  .opt input { width: 20px; height: 20px; }
+  .month button { width: 44px; height: 44px; }
+  .chip { min-height: 36px; padding-inline: var(--s3); }
+  .go, .clear { min-height: 44px; display: inline-flex; align-items: center; }
+}
+
+/* No hover on a phone: the card lift is the only hover affordance, and it should not fire
+   from a tap and then stick. */
+@media (hover: none) {
+  .card:hover { transform: none; border-color: var(--rule); }
+}
+
+/* Kill the grey flash on tap and the lingering focus ring after a touch. */
+* { -webkit-tap-highlight-color: transparent; }
+
+/* Stop the whole page bouncing when the filter sheet or list reaches its end. */
+html, body { overscroll-behavior-y: none; }
+.rail { overscroll-behavior: contain; }
+
+.offline {
+  display: inline-block;
+  margin-right: var(--s2);
+  padding: 2px var(--s2);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--urgent) 18%, transparent);
+  color: var(--urgent);
+  font-weight: 600;
+}
+
+/* ---- install prompts ---- */
+.install {
+  position: fixed;
+  left: var(--s4); right: var(--s4);
+  bottom: max(var(--s4), calc(env(safe-area-inset-bottom) + var(--s2)));
+  z-index: 40;
+  display: flex; align-items: center; gap: var(--s3);
+  padding: var(--s3) var(--s4);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 32px rgb(0 0 0 / 0.3);
+}
+.install p { margin: 2px 0 0; color: var(--muted); font-size: var(--t--1); }
+.install strong { font-size: var(--t-0); }
+.install-go {
+  margin-left: auto; flex: 0 0 auto;
+  min-height: 44px; padding: 0 var(--s4);
+  border: 0; border-radius: var(--radius);
+  background: var(--accent); color: #fff; font-weight: 600;
+}
+.install-x {
+  flex: 0 0 auto; min-width: 44px; min-height: 44px;
+  background: none; border: 0; color: var(--muted); font-size: var(--t-2); line-height: 1;
+}
+.ios-share { font-family: -apple-system, system-ui, sans-serif; }
+
+@media (min-width: 861px) {
+  /* The install offer is a phone concern; on a desktop it is clutter. */
+  .install { display: none; }
+  .sheet-btn { bottom: var(--s5); }
+}

@@ -2,13 +2,14 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import type { Dataset, Hackathon } from "./types";
 import {
-  addMonths, daysUntil, formatMonth, formatPrize, formatRun, formatTeam, loadDataset, monthKey,
-  sortKey,
+  addMonths, daysUntil, formatMonth, formatPrize, formatRun, formatTeam, isReachable,
+  loadDataset, monthKey, sortKey,
 } from "./data";
 import {
   activeChips, applyFilters, bestRelaxation, EMPTY, fromSearchParams, optionCounts,
   toSearchParams, type FilterState,
 } from "./filters";
+import Install from "./Install";
 
 const LABELS: Record<string, Record<string, string>> = {
   scope: { global: "Global", india: "India", city: "City-specific" },
@@ -24,6 +25,21 @@ const LABELS: Record<string, Record<string, string>> = {
 };
 
 const label = (group: string, value: string) => LABELS[group]?.[value] ?? value;
+
+/**
+ * How old the list is, in words. Installed and offline, this is the only thing telling the
+ * visitor whether they are looking at today's hackathons or a week-old cache -- and if the
+ * refresh job has been quietly broken, this is where it shows.
+ */
+function formatAge(iso: string, today: Date): string {
+  const minutes = Math.round((today.getTime() - Date.parse(iso)) / 60_000);
+  if (!Number.isFinite(minutes) || minutes < 0) return "just now";
+  if (minutes < 60) return `${minutes} min ago`;
+  const hours = Math.round(minutes / 60);
+  if (hours < 24) return `${hours} hour${hours === 1 ? "" : "s"} ago`;
+  const days = Math.round(hours / 24);
+  return `${days} day${days === 1 ? "" : "s"} ago`;
+}
 
 function urgency(days: number | null) {
   if (days === null) return { cls: "d-none", text: "Deadline not published" };
@@ -97,6 +113,7 @@ export default function App() {
   const [data, setData] = useState<Dataset | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [sheetOpen, setSheetOpen] = useState(false);
+  const [online, setOnline] = useState(true);
   // Read once from the URL the page was opened with: these are set by the measurement
   // harness, and re-reading them on every render made them flip to false the moment the
   // filter effect rewrote the query string.
@@ -132,6 +149,23 @@ export default function App() {
     addEventListener("popstate", onPop);
     return () => removeEventListener("popstate", onPop);
   }, [thisMonth, stress]);
+
+  useEffect(() => {
+    let cancelled = false;
+    const check = () => { void isReachable().then((up) => { if (!cancelled) setOnline(up); }); };
+    check();
+    // The events are still worth listening to -- they are instant when they do fire; the probe
+    // is what catches the cases where they don't.
+    addEventListener("online", check);
+    addEventListener("offline", check);
+    const timer = setInterval(check, 30_000);
+    return () => {
+      cancelled = true;
+      clearInterval(timer);
+      removeEventListener("online", check);
+      removeEventListener("offline", check);
+    };
+  }, []);
 
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
@@ -333,10 +367,9 @@ export default function App() {
       </div>
 
       <footer className="stamp">
+        {!online && <span className="offline">offline</span>}
         {data?.last_updated
-          ? <>Data last updated {new Date(data.last_updated).toLocaleString("en-GB", {
-              dateStyle: "medium", timeStyle: "short",
-            })} · {events.length} events tracked</>
+          ? <>Data last updated {formatAge(data.last_updated, today)} · {events.length} events tracked</>
           : "No data loaded"}
         {" · "}
         <a href="https://github.com/shreyansigheware/hackboard">how this list is built</a>
@@ -346,6 +379,7 @@ export default function App() {
         Filters{chips.length ? <span> · {chips.length}</span> : null}
       </button>
       {sheetOpen && <div className="scrim" onClick={() => setSheetOpen(false)} />}
+      <Install />
     </>
   );
 }

@@ -1,5 +1,29 @@
 import type { Dataset, Hackathon } from "./types";
 
+/**
+ * Is the network actually reachable?
+ *
+ * `navigator.onLine` only reports whether an interface is up. It says true on hotel wifi
+ * behind a captive portal, and under DevTools network emulation, so an offline badge driven
+ * by it alone is decorative. This asks the network a real question instead.
+ */
+export async function isReachable(timeoutMs = 3500): Promise<boolean> {
+  if (!navigator.onLine) return false;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    // cache: "no-store" so neither the HTTP cache nor the service worker can answer this.
+    const response = await fetch(`${import.meta.env.BASE_URL}data/hackathons.json`, {
+      method: "HEAD", cache: "no-store", signal: controller.signal,
+    });
+    return response.ok;
+  } catch {
+    return false;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 /** Data is fetched at runtime, not bundled: the daily Action commits data/*.json, and a
  *  data-only commit should republish the site without anyone rebuilding it. */
 export async function loadDataset(stress: boolean): Promise<Dataset> {

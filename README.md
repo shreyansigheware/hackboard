@@ -6,9 +6,10 @@ Today that means checking Devfolio, then Unstop, then HackerEarth, then Devpost,
 a WhatsApp group, and still missing half of them. There is no single monthly view. This is that
 view.
 
-> **Status: sessions 1–4 done, session 5 partly.** The dashboard is built and filtering 238
-> real events from three sources. Performance is measured at 1,000 rows. The daily refresh
-> workflow is written but has not run on a schedule yet.
+> **Status: the dashboard is live** with 247 real events from three sources, performance
+> measured at 1,000 rows, and a daily refresh that has run green and committed a real change.
+> It is also an installable PWA that works offline. Outstanding: Lighthouse, a real-device
+> performance recording, and a *scheduled* (rather than manually dispatched) refresh run.
 
 Built as module [#5](https://github.com/shreyansigheware/ai-learning-plan/issues/5) of a
 [learning plan run in public](https://github.com/shreyansigheware/ai-learning-plan).
@@ -222,6 +223,47 @@ Query parameters, all measurement-only and not reachable from the UI:
 every card · `?month=all` shows every month at once.
 
 ---
+
+## Installable, offline-capable
+
+A Progressive Web App: one codebase, installs from a URL, no native toolchain and no app store.
+Tracked by [ai-learning-plan#6](https://github.com/shreyansigheware/ai-learning-plan/issues/6).
+
+| | |
+|---|---|
+| Manifest | `static/manifest.webmanifest` — standalone display, maskable + any icons at 192/512, a "Closing this week" shortcut |
+| Icons | generated from one SVG by `public-src/render-icons.mjs`, with every mark inside the 80% maskable safe zone |
+| Service worker | `static/sw.js` — cache-first shell, stale-while-revalidate data |
+| Cache versioning | `__BUILD__` stamped at build time; `activate` deletes every older cache |
+| Offline state | the footer says how old the list is, and shows an `offline` badge |
+
+**Verified, not asserted** — `node scripts/check-pwa.mjs <url>` drives headless Chrome over the
+DevTools Protocol and reports:
+
+```
+serviceWorker: registered, scope http://localhost:8731/hackboard/, state "activated"
+manifest:      0 errors, display "standalone", 4 icon entries
+offline:       reload with the network cut renders 181 cards from cache, offline badge shown
+```
+
+Two details worth knowing:
+
+- **Scope.** The worker is registered under `import.meta.env.BASE_URL`, not `/`. On a project
+  page a worker registered at the origin root is out of scope and silently controls nothing —
+  the one deployment detail the issue flagged as likely to trip this up, and it does.
+- **`navigator.onLine` is not used on its own to decide "offline".** It reports true behind a
+  captive portal, and true under DevTools network emulation — which is how this was caught. The
+  badge is driven by `isReachable()`, which asks the network a real question.
+
+### Still native-only, and handled
+
+| | |
+|---|---|
+| iOS install prompt | Doesn't exist. `src/Install.tsx` shows an Add-to-Home-Screen sheet to iOS Safari users who haven't installed, after 12s rather than on first paint. |
+| Android install | `beforeinstallprompt` is captured and offered on a button, not fired immediately. |
+| Web Push | **Not built.** iOS needs 16.4+, installed, and a user gesture — so the install has to come first. |
+| Background sync | Not supported on iOS; refresh-on-launch instead. |
+| Splash screens | `apple-touch-startup-image` per device size is not done; expect a flash on iOS launch. |
 
 ## Sessions
 
