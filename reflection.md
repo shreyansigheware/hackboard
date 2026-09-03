@@ -84,10 +84,42 @@
   in the repo while the live site stayed frozen on day one. Exactly the "stale data is worse
   than no dashboard" failure the issue names, and it was only caught by checking whether the
   deploy actually fired rather than trusting the green tick on the refresh.
+- **Broke the deploy by putting icon generation in the build.** `prebuild` shelled out to
+  Chrome at `/Applications/Google Chrome.app/...`, which exists on this Mac and on no CI
+  runner. It worked locally and failed on the first push. The icons are committed artifacts;
+  regenerating them is a manual step now.
+- **Rendered an icon that was a broken-image marker.** The renderer pointed an `<img>` at a
+  local `file://` SVG, which headless Chrome refuses to load from a local page. It produced a
+  512×512 PNG of the right size, right background colour, and no icon — which would have passed
+  any check that only looked at dimensions. Looking at the image is what caught it.
 - **Shipped a URL bug that the test harness exposed.** The filter effect rebuilt the query
   string from scratch, silently dropping any parameter it did not manage. It surfaced because
   `?novirtual=1` kept turning itself off mid-measurement — but the same bug would have eaten
   a UTM tag or any other param on a shared link.
+
+## #6 — the PWA layer
+
+Built on top of the same repo, per the issue: manifest, maskable icons, service worker,
+install flows for both platforms, offline state.
+
+**The course does not match the constraint.** It teaches Expo/React Native, Supabase and
+app-store submission — reported on the issue before planning anything, and not followed.
+
+**What `navigator.onLine` taught me.** The offline badge did not appear when the network was
+cut, and the first instinct was that the test harness was wrong. It was — DevTools network
+emulation does not flip that flag — but chasing it surfaced that `navigator.onLine` is
+unreliable in production too: it reports true behind a captive portal. The badge is now driven
+by an actual request. A broken test found a real bug.
+
+**Verified rather than asserted.** `scripts/check-pwa.mjs` drives a real browser: worker
+activated in the `/hackboard/` scope, manifest parsed with zero errors, and a reload with the
+network cut rendering 181 cards from cache. Run against the live HTTPS site, not just
+localhost.
+
+**Not done:** Web Push (iOS needs 16.4+, installed, and a user gesture, so the install has to
+come first), `apple-touch-startup-image` splash screens, and — the one that matters — **it has
+not been installed on a real iPhone or a real Android phone.** That is the definition of done
+here, and headless Chrome cannot stand in for it.
 
 ## The three questions
 
