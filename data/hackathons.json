@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-09-03T14:12:47+05:30",
+  "last_updated": "2026-09-03T08:56:35+00:00",
   "note": "Real, verified events only. Every row keeps a source_url.",
   "events": [
+    {
+      "id": "volthacks-2026-05",
+      "name": "VoltHacks",
+      "organiser": {
+        "name": "Dialogate",
+        "type": "company"
+      },
+      "scope": "global",
+      "mode": "online",
+      "themes": [
+        "hardware",
+        "ai"
+      ],
+      "starts": "2026-05-22",
+      "ends": "2026-09-05",
+      "registration_closes": null,
+      "prize": {
+        "amount": 35785,
+        "currency": "USD"
+      },
+      "team": {
+        "min": 1,
+        "max": null
+      },
+      "eligibility": "open",
+      "url": "https://volthacks.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "locked": false
+    },
     {
       "id": "animalhack-2026-2026-06",
       "name": "AnimalHack 2026",
@@ -445,6 +477,100 @@
       "locked": false
     },
     {
+      "id": "call-e-your-code-is-calling-2026-07",
+      "name": "CALL-E: Your Code Is Calling",
+      "organiser": {
+        "name": "CALL-E",
+        "type": "company"
+      },
+      "scope": "global",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": "2026-07-23",
+      "ends": "2026-09-14",
+      "registration_closes": null,
+      "prize": {
+        "amount": 10000,
+        "currency": "USD"
+      },
+      "team": {
+        "min": 1,
+        "max": null
+      },
+      "eligibility": "open",
+      "url": "https://call-e.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "locked": false
+    },
+    {
+      "id": "agentic-cinema-the-blockbuster-hackathon-2026-07",
+      "name": "Agentic Cinema: The Blockbuster Hackathon",
+      "organiser": {
+        "name": "Google",
+        "type": "company"
+      },
+      "scope": "global",
+      "mode": "online",
+      "themes": [
+        "ai",
+        "other"
+      ],
+      "starts": "2026-07-27",
+      "ends": "2026-09-09",
+      "registration_closes": null,
+      "prize": {
+        "amount": 75000,
+        "currency": "USD"
+      },
+      "team": {
+        "min": 1,
+        "max": null
+      },
+      "eligibility": "open",
+      "url": "https://agentic-cinema.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "locked": false
+    },
+    {
+      "id": "revenuecat-shipaton-2026-2026-07",
+      "name": "RevenueCat Shipaton 2026",
+      "organiser": {
+        "name": "RevenueCat",
+        "type": "company"
+      },
+      "scope": "global",
+      "mode": "online",
+      "themes": [
+        "other"
+      ],
+      "starts": "2026-07-31",
+      "ends": "2026-10-01",
+      "registration_closes": null,
+      "prize": {
+        "amount": 740000,
+        "currency": "USD"
+      },
+      "team": {
+        "min": 1,
+        "max": null
+      },
+      "eligibility": "open",
+      "url": "https://revenuecat-shipaton-2026.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "locked": false
+    },
+    {
       "id": "compsphere-12-2026-08",
       "name": "COMPSPHERE 12",
       "organiser": {
@@ -605,6 +731,38 @@
       "city": "Jaipur"
     },
     {
+      "id": "agents-for-humans-hackathon-2026-08",
+      "name": "Agents for Humans Hackathon",
+      "organiser": {
+        "name": "Amazon",
+        "type": "company"
+      },
+      "scope": "global",
+      "mode": "online",
+      "themes": [
+        "ai",
+        "other"
+      ],
+      "starts": "2026-08-10",
+      "ends": "2026-09-14",
+      "registration_closes": null,
+      "prize": {
+        "amount": 40000,
+        "currency": "USD"
+      },
+      "team": {
+        "min": 1,
+        "max": null
+      },
+      "eligibility": "open",
+      "url": "https://agentsforhumans.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "locked": false
+    },
+    {
       "id": "next-founders-hackathon-2026-08",
       "name": "Next Founders Hackathon",
       "organiser": {
@@ -754,6 +912,38 @@
       },
       "eligibility": "open",
       "url": "https://prometheus-sept-ai-classic.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "locked": false
+    },
+    {
+      "id": "ai-builders-hackathon-2026-08",
+      "name": "AI Builders Hackathon",
+      "organiser": {
+        "name": "OSC",
+        "type": "company"
+      },
+      "scope": "global",
+      "mode": "online",
+      "themes": [
+        "ai",
+        "other"
+      ],
+      "starts": "2026-08-21",
+      "ends": "2026-09-15",
+      "registration_closes": null,
+      "prize": {
+        "amount": 33900,
+        "currency": "USD"
+      },
+      "team": {
+        "min": 1,
+        "max": null
+      },
+      "eligibility": "open",
+      "url": "https://ai-builders-hackathon-2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-03",
@@ -1015,6 +1205,68 @@
       "locked": false
     },
     {
+      "id": "the-webmcp-challenge-2026-08",
+      "name": "The WebMCP Challenge",
+      "organiser": {
+        "name": "OpenAI",
+        "type": "company"
+      },
+      "scope": "global",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": "2026-08-25",
+      "ends": "2026-09-03",
+      "registration_closes": null,
+      "prize": {
+        "amount": 35000,
+        "currency": "USD"
+      },
+      "team": {
+        "min": 1,
+        "max": null
+      },
+      "eligibility": "open",
+      "url": "https://webmcp.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "locked": false
+    },
+    {
+      "id": "nebius-x-nvidia-global-ai-hackathon-2026-08",
+      "name": "Nebius x NVIDIA Global AI Hackathon",
+      "organiser": {
+        "name": "nebius",
+        "type": "company"
+      },
+      "scope": "global",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": "2026-08-26",
+      "ends": "2026-10-30",
+      "registration_closes": null,
+      "prize": {
+        "amount": 50000,
+        "currency": "USD"
+      },
+      "team": {
+        "min": 1,
+        "max": null
+      },
+      "eligibility": "open",
+      "url": "https://nebiusglobalaihackathon.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "locked": false
+    },
+    {
       "id": "opencv-ai-competition-2026-powered-by-aws-2026-08",
       "name": "OpenCV AI Competition 2026, powered by AWS",
       "organiser": {
@@ -1200,6 +1452,38 @@
       },
       "eligibility": "open",
       "url": "https://venturefix.devpost.com/",
+      "source": "devpost",
+      "source_url": "https://devpost.com/hackathons",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "locked": false
+    },
+    {
+      "id": "build-ship-shape-amazon-developer-hackathon-2026-08",
+      "name": "Build, Ship, Shape: Amazon Developer Hackathon",
+      "organiser": {
+        "name": "Amazon",
+        "type": "company"
+      },
+      "scope": "global",
+      "mode": "online",
+      "themes": [
+        "ai",
+        "other"
+      ],
+      "starts": "2026-08-31",
+      "ends": "2026-10-23",
+      "registration_closes": null,
+      "prize": {
+        "amount": 138000,
+        "currency": "USD"
+      },
+      "team": {
+        "min": 1,
+        "max": null
+      },
+      "eligibility": "open",
+      "url": "https://amazonappdev2026.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-03",
