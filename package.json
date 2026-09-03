@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/copy-static.mjs && vite",
-    "prebuild": "node public-src/render-icons.mjs && node scripts/copy-static.mjs",
+    "prebuild": "node scripts/copy-static.mjs",
+    "icons": "node public-src/render-icons.mjs",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -b --noEmit"

@@ -4,6 +4,10 @@
  * Uses headless Chrome rather than a raster library: no image dependency to install, and it
  * renders the same SVG the browser would. Opaque background on purpose -- a maskable icon is
  * cropped by the launcher, and transparency there shows as a hole.
+ *
+ * NOT part of the build. It depends on a Chrome at a macOS path, which the CI runner does not
+ * have -- wiring it into prebuild broke the deploy. The PNGs in icons/ are committed artifacts;
+ * run `npm run icons` by hand when icon.svg changes, and commit the result.
  */
 import { spawnSync } from "node:child_process";
 import { mkdirSync, writeFileSync, rmSync, readFileSync } from "node:fs";

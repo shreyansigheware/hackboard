@@ -83,3 +83,6 @@ app store**. The course that issue names teaches Expo/React Native; that is not 
   portal. `isReachable()` in `src/data.ts` asks the network a real question.
 - `100dvh`/`100svh`, never `100vh`. Safe-area insets on anything touching an edge. 44px touch
   targets. No hover-only affordances.
+- The PNGs in `icons/` are **committed artifacts**, not build output. `npm run icons` regenerates
+  them from `public-src/icon.svg` and needs a local macOS Chrome, so it must never be part of
+  the build — the CI runner has no Chrome and the deploy fails on it.
