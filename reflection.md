@@ -45,8 +45,8 @@
 - **Lighthouse has not been run**, so LCP and CLS have no number. Needs the deployed URL.
 - **The frame-rate numbers are weak.** Headless Chrome with `--disable-gpu` and a scripted
   scroll is not a finger on a phone. The 60fps target is not claimed as passed.
-- **The daily workflow has never run on its schedule.** #5 does not close until it has run
-  green twice and committed one real change.
+- **The daily workflow has run green once, on manual dispatch**, and committed a real change
+  (247 events). #5 wants two green runs, so one scheduled run still has to land.
 - **Devfolio contributes nothing** — it is client-rendered and needs the model-extraction path.
 
 ## Where Claude got it wrong
@@ -78,6 +78,12 @@
   cropped 500px render). Then reported a filter latency of 0.0 ms, five times running, from a
   MutationObserver that fired on the first unrelated mutation. A measurement that comes back
   suspiciously perfect is a broken measurement, and both times the tell was there to read.
+- **Built a refresh job that would have quietly stopped republishing the site.** The workflow
+  fetched, validated and committed 247 events correctly — and no deploy ran. A push made with
+  `GITHUB_TOKEN` does not trigger workflows, by design, so the data would have kept updating
+  in the repo while the live site stayed frozen on day one. Exactly the "stale data is worse
+  than no dashboard" failure the issue names, and it was only caught by checking whether the
+  deploy actually fired rather than trusting the green tick on the refresh.
 - **Shipped a URL bug that the test harness exposed.** The filter effect rebuilt the query
   string from scratch, silently dropping any parameter it did not manage. It surfaced because
   `?novirtual=1` kept turning itself off mid-measurement — but the same bug would have eaten

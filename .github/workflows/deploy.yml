@@ -4,9 +4,17 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Called by the daily refresh. A push made with GITHUB_TOKEN does not trigger workflows --
+  # GitHub blocks that to prevent runaway recursion -- so the refresh has to ask for the
+  # deploy explicitly, or the data updates and the site never republishes.
+  workflow_call:
+    inputs:
+      ref:
+        description: "Commit or branch to build. The refresh passes main so the build picks up the data commit it just pushed, not the SHA that started the run."
+        type: string
+        required: false
+        default: ""
 
-# The refresh job commits data and this job publishes it, so one deploy at a time, and let a
-# newer commit supersede a queued one rather than publishing stale data after fresh data.
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -21,6 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.sha }}
       - uses: actions/setup-node@v4
         with:
           node-version: "24"
