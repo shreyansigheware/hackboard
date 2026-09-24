@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T06:21:26+00:00",
+  "last_updated": "2026-09-24T06:29:47+00:00",
   "note": "Real, verified events only. Every row keeps a source_url.",
   "events": [
     {
@@ -30,39 +30,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
-      "locked": false
-    },
-    {
-      "id": "bunniex-hackathon-2026-06",
-      "name": "BunnieX Hackathon",
-      "organiser": {
-        "name": "TechieBunnies team",
-        "type": "company"
-      },
-      "scope": "global",
-      "mode": "online",
-      "themes": [
-        "ai",
-        "other"
-      ],
-      "starts": "2026-06-22",
-      "ends": "2026-09-23",
-      "registration_closes": null,
-      "prize": {
-        "amount": 0,
-        "currency": "USD"
-      },
-      "team": {
-        "min": 1,
-        "max": null
-      },
-      "eligibility": "open",
-      "url": "https://buuniex-hackathon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -94,7 +62,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -126,7 +94,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -158,7 +126,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -189,7 +157,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -220,7 +188,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -251,7 +219,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -283,7 +251,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -314,7 +282,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -345,7 +313,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -377,7 +345,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -409,7 +377,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -440,7 +408,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -471,38 +439,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
-      "locked": false
-    },
-    {
-      "id": "graphiques-innovation-challenge-2026-08",
-      "name": "Graphiques Innovation Challenge",
-      "organiser": {
-        "name": "Hack Club",
-        "type": "company"
-      },
-      "scope": "global",
-      "mode": "online",
-      "themes": [
-        "fintech"
-      ],
-      "starts": "2026-08-21",
-      "ends": "2026-09-23",
-      "registration_closes": null,
-      "prize": {
-        "amount": 0,
-        "currency": "USD"
-      },
-      "team": {
-        "min": 1,
-        "max": null
-      },
-      "eligibility": "open",
-      "url": "https://graphiques-challenge.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -534,7 +471,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -565,7 +502,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -597,7 +534,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -628,7 +565,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -660,7 +597,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -692,7 +629,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -724,7 +661,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -756,7 +693,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Bangalore"
     },
@@ -788,12 +725,12 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
-      "id": "ml-empowerment-build-challenge-3-0-free-prizes-for-everyone-2026-09",
-      "name": "ML Empowerment Build Challenge 3.0 - FREE Prizes for EVERYONE",
+      "id": "ml-empowerment-build-challenge-3-0-55k-in-prizes-2026-09",
+      "name": "ML Empowerment Build Challenge 3.0 - (55k in prizes!)",
       "organiser": {
         "name": "ML Empowerment Foundation",
         "type": "company"
@@ -819,8 +756,8 @@
       "url": "https://ml-build-challenge-3.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "first_seen": "2026-09-22",
-      "last_seen": "2026-09-23",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -851,7 +788,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -884,7 +821,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -915,7 +852,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -947,7 +884,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -978,7 +915,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -1009,7 +946,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -1040,7 +977,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -1071,7 +1008,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -1102,7 +1039,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -1133,7 +1070,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -1164,14 +1101,14 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
-      "id": "aether-hackconquest-hackathon-2026-09",
-      "name": "Aether HackConquest Hackathon",
+      "id": "gdta-python-code-war-cse-2026-09",
+      "name": "GDTA PYTHON CODE WAR CSE",
       "organiser": {
-        "name": "Thakur College of Engineering and Technology (TCET), Mumbai",
+        "name": "SNS College of Technology (SNSCT), Coimbatore, Tamil Nadu",
         "type": "university"
       },
       "scope": "india",
@@ -1181,51 +1118,19 @@
       ],
       "starts": null,
       "ends": null,
-      "registration_closes": "2026-09-23",
+      "registration_closes": "2026-09-24",
       "prize": null,
       "team": {
-        "min": 2,
-        "max": 4
-      },
-      "eligibility": "open",
-      "url": "https://unstop.com/hackathons/aether-hackconquest-hackathon-thakur-college-of-engineering-and-technology-tcet-mumbai-1752204",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
-      "locked": false
-    },
-    {
-      "id": "epinoia-the-hackathon-event-2026-09",
-      "name": "EPINOIA : The Hackathon Event",
-      "organiser": {
-        "name": "Indian Institute of Management (IIM), Indore",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-09-23",
-      "prize": {
-        "amount": 25000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 2,
-        "max": 4
+        "min": 1,
+        "max": 1
       },
       "eligibility": "students",
-      "url": "https://unstop.com/hackathons/epinoia-the-hackathon-event-atharv-ranbhoomi-2026-iim-indore-1755375",
+      "url": "https://unstop.com/hackathons/gdta-python-code-war-cse-sns-college-of-technology-snsct-coimbatore-tamil-nadu-1760460",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-22",
-      "last_seen": "2026-09-23",
-      "locked": false,
-      "city": "Indore"
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "locked": false
     },
     {
       "id": "herspark-ideathon-2026-2026-09",
@@ -1241,7 +1146,7 @@
       ],
       "starts": null,
       "ends": null,
-      "registration_closes": "2026-09-23",
+      "registration_closes": "2026-09-24",
       "prize": null,
       "team": {
         "min": 2,
@@ -1252,7 +1157,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Mumbai"
     },
@@ -1270,7 +1175,7 @@
       ],
       "starts": null,
       "ends": null,
-      "registration_closes": "2026-09-23",
+      "registration_closes": "2026-09-24",
       "prize": {
         "amount": 4000,
         "currency": "INR"
@@ -1284,159 +1189,9 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Chennai"
-    },
-    {
-      "id": "kodnexus-ai-build-battle-smart-invoice-challenge-2026-09",
-      "name": "Kodnexus AI Build Battle \u2013 Smart Invoice Challenge",
-      "organiser": {
-        "name": "Kodnexus",
-        "type": "company"
-      },
-      "scope": "india",
-      "mode": "online",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-09-23",
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 1
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/kodnexus-ai-build-battle-smart-invoice-challenge-kodnexus-1757817",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-19",
-      "last_seen": "2026-09-23",
-      "locked": false
-    },
-    {
-      "id": "orbion-8-hour-hackathon-2026-09",
-      "name": "ORBION: 8-Hour Hackathon",
-      "organiser": {
-        "name": "Institute of Engineering and Management",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-09-23",
-      "prize": null,
-      "team": {
-        "min": 2,
-        "max": 4
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/orbion-8-hour-hackathon-institute-of-engineering-and-managemet-1756946",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
-      "locked": false,
-      "city": "Kolkata"
-    },
-    {
-      "id": "startup-ideathon-3-o-2026-09",
-      "name": "Startup Ideathon 3.O",
-      "organiser": {
-        "name": "Coimbatore Institute of Technology (CIT), Coimbatore",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-09-23",
-      "prize": {
-        "amount": 5000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 1,
-        "max": 3
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/startup-ideathon-3o-coimbatore-institute-of-technology-cit-coimbatore-1755976",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
-      "locked": false,
-      "city": "Coimbatore"
-    },
-    {
-      "id": "agnitia-2026-36-hours-national-level-hackathon-2026-09",
-      "name": "Agnitia 2026 : 36 Hours National Level Hackathon",
-      "organiser": {
-        "name": "Prestige Institute of Engineering, Management and Research (PIEMR), Indore",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai",
-        "cybersecurity"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-09-24",
-      "prize": {
-        "amount": 125000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 2,
-        "max": 4
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/agnitia-2026-36-hours-national-level-hackathon-prestige-institute-of-engineering-management-and-research-pimr-1750621",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
-      "locked": false,
-      "city": "Indore"
-    },
-    {
-      "id": "free-full-stack-python-with-gen-ai-demo-2026-09",
-      "name": "Free Full Stack Python with Gen-AI Demo",
-      "organiser": {
-        "name": "Quality Thought Info Systems",
-        "type": "company"
-      },
-      "scope": "india",
-      "mode": "online",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-09-24",
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 1
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/free-full-stack-python-with-gen-ai-demo-quality-thought-info-systems-1758360",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
-      "locked": false
     },
     {
       "id": "python-web-scraper-challenge-2026-09",
@@ -1466,39 +1221,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-23",
-      "locked": false
-    },
-    {
-      "id": "zerobreach-2-0-ctf-2026-2026-09",
-      "name": "ZeroBreach 2.0 CTF 2026",
-      "organiser": {
-        "name": "Sanjivani College of Engineering (SCE), Kopargaon",
-        "type": "university"
-      },
-      "scope": "india",
-      "mode": "online",
-      "themes": [
-        "cybersecurity",
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-09-24",
-      "prize": {
-        "amount": 10000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 1,
-        "max": 2
-      },
-      "eligibility": "open",
-      "url": "https://unstop.com/hackathons/zerobreach-20-ctf-2026-sanjivani-college-of-engineering-sce-kopargaon-1750241",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -1527,37 +1250,39 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
-      "id": "gdg-kalakriti-the-designathon-2026-09",
-      "name": "GDG KalaKriti: The Designathon",
+      "id": "build-fast-with-ai-ai-build-challenge-2026-2026-09",
+      "name": "Build Fast with AI: AI Build Challenge 2026",
       "organiser": {
-        "name": "Narsee Monjee Institute of Management Studies",
-        "type": "university"
+        "name": "Build Fast with AI",
+        "type": "company"
       },
-      "scope": "city",
-      "mode": "in-person",
+      "scope": "india",
+      "mode": "online",
       "themes": [
         "ai"
       ],
       "starts": null,
       "ends": null,
       "registration_closes": "2026-09-25",
-      "prize": null,
+      "prize": {
+        "amount": 10000,
+        "currency": "INR"
+      },
       "team": {
         "min": 1,
         "max": 3
       },
       "eligibility": "students",
-      "url": "https://unstop.com/hackathons/gdg-kalakriti-the-designathon-nmims-1756453",
+      "url": "https://unstop.com/hackathons/build-fast-with-ai-ai-build-challenge-2026-build-fast-with-ai-1758453",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
-      "locked": false,
-      "city": "Mumbai"
+      "first_seen": "2026-09-20",
+      "last_seen": "2026-09-24",
+      "locked": false
     },
     {
       "id": "hack-the-hill-2026-09",
@@ -1585,7 +1310,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -1614,7 +1339,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -1643,12 +1368,12 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
-      "id": "modelwars-2026-09",
-      "name": "ModelWars",
+      "id": "invente-26-modelwars-2026-09",
+      "name": "Invente'26 - ModelWars",
       "organiser": {
         "name": "Shiv Nadar University (SNU), Chennai",
         "type": "university"
@@ -1673,8 +1398,8 @@
       "url": "https://unstop.com/hackathons/modelwars-shiv-nadar-university-snu-chennai-1760206",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -1703,7 +1428,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Hyderabad"
     },
@@ -1733,7 +1458,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -1764,7 +1489,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-22",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Bhopal"
     },
@@ -1794,39 +1519,37 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
-      "id": "build-fast-with-ai-ai-build-challenge-2026-2026-09",
-      "name": "Build Fast with AI: AI Build Challenge 2026",
+      "id": "code-and-craft-ssn-snuc-invente-26-2026-09",
+      "name": "Code and Craft - SSN SNUC Invente '26",
       "organiser": {
-        "name": "Build Fast with AI",
-        "type": "company"
+        "name": "Shiv Nadar University (SNU), Chennai",
+        "type": "university"
       },
-      "scope": "india",
-      "mode": "online",
+      "scope": "city",
+      "mode": "in-person",
       "themes": [
         "ai"
       ],
       "starts": null,
       "ends": null,
       "registration_closes": "2026-09-26",
-      "prize": {
-        "amount": 10000,
-        "currency": "INR"
-      },
+      "prize": null,
       "team": {
         "min": 1,
         "max": 3
       },
       "eligibility": "students",
-      "url": "https://unstop.com/hackathons/build-fast-with-ai-ai-build-challenge-2026-build-fast-with-ai-1758453",
+      "url": "https://unstop.com/hackathons/code-and-craft-shiv-nadar-university-snu-chennai-1760021",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
-      "locked": false
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "locked": false,
+      "city": "Chennai"
     },
     {
       "id": "data-analytics-hackathon-2026-09",
@@ -1856,7 +1579,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -1885,7 +1608,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -1913,7 +1636,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -1941,40 +1664,8 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
-    },
-    {
-      "id": "hackwave-3-0-2026-09",
-      "name": "Hackwave 3.0",
-      "organiser": {
-        "name": "Chameli Devi Group of Institutions",
-        "type": "company"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-09-26",
-      "prize": {
-        "amount": 50000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 3,
-        "max": 5
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/hackwave-30-chameli-devi-group-of-institutions-1750278",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
-      "locked": false,
-      "city": "Indore"
     },
     {
       "id": "invente-26-telemetrix-2026-09",
@@ -2004,7 +1695,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -2036,7 +1727,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -2065,7 +1756,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -2094,7 +1785,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -2125,7 +1816,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -2153,7 +1844,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Mumbai"
     },
@@ -2187,7 +1878,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -2219,7 +1910,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Mumbai"
     },
@@ -2248,7 +1939,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Indore"
     },
@@ -2280,37 +1971,9 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Indore"
-    },
-    {
-      "id": "eic-venturex-idea-to-impact-hackathon-2026-09",
-      "name": "EIC VentureX: Idea To Impact Hackathon",
-      "organiser": {
-        "name": "Punjab Engineering College (PEC), Chandigarh",
-        "type": "university"
-      },
-      "scope": "india",
-      "mode": "online",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-09-28",
-      "prize": null,
-      "team": {
-        "min": 3,
-        "max": 4
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/eic-venturex-idea-to-impact-punjab-engineering-college-pec-chandigarh-1750271",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
-      "locked": false
     },
     {
       "id": "hackathon-2026-09",
@@ -2340,7 +2003,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Jaipur"
     },
@@ -2374,7 +2037,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Bangalore"
     },
@@ -2403,7 +2066,35 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
+      "locked": false
+    },
+    {
+      "id": "bharat-agentic-2026-2026-09",
+      "name": "Bharat Agentic 2026",
+      "organiser": {
+        "name": "aikart.co",
+        "type": "company"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-09-30",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 4
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/bharat-agentic-2026-aikartco-1760783",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -2434,37 +2125,8 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
-    },
-    {
-      "id": "codearambh-2-0-dare-to-code-dare-to-create-2026-09",
-      "name": "Codearambh 2.0: Dare to Code, Dare to Create",
-      "organiser": {
-        "name": "TechFuison Hiet Ghaziabad",
-        "type": "company"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-09-30",
-      "prize": null,
-      "team": {
-        "min": 2,
-        "max": 4
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/codearambh-20-dare-to-code-dare-to-create-techfuison-hiet-ghaziabad-1755103",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
-      "locked": false,
-      "city": "Delhi NCR"
     },
     {
       "id": "genie-x-hub-represents-project-eclipse-hackathon-2026-09",
@@ -2494,7 +2156,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -2523,37 +2185,8 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
-    },
-    {
-      "id": "hackpulse-2026-09",
-      "name": "Hackpulse",
-      "organiser": {
-        "name": "University of Engineering & Management (UEM), Jaipur",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-09-30",
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "open",
-      "url": "https://unstop.com/hackathons/hackpulse-university-of-engineering-management-uem-jaipur-1747911",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
-      "locked": false,
-      "city": "Jaipur"
     },
     {
       "id": "innova-x-2k26-global-online-hackathon-2026-09",
@@ -2580,7 +2213,38 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
+      "locked": false
+    },
+    {
+      "id": "narayana-national-hackathon-2026-2026-09",
+      "name": "Narayana National Hackathon 2026",
+      "organiser": {
+        "name": "Jai Narayan Vidya Mandir, Kanpur, Uttar Pradesh",
+        "type": "company"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-09-30",
+      "prize": {
+        "amount": 30000,
+        "currency": "INR"
+      },
+      "team": {
+        "min": 1,
+        "max": 6
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/narayana-national-hackathon-2026-jai-narayan-vidya-mandir-kanpur-uttar-pradesh-1760310",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -2608,7 +2272,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -2639,7 +2303,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -2670,41 +2334,9 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Hyderabad"
-    },
-    {
-      "id": "build-with-bharat-4-0-2026-10",
-      "name": "Build with bharat 4.0",
-      "organiser": {
-        "name": "Codeverse",
-        "type": "company"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-10-01",
-      "prize": {
-        "amount": 50000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 2,
-        "max": 5
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/build-with-bharat-40-codeverse-1750139",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
-      "locked": false,
-      "city": "Delhi NCR"
     },
     {
       "id": "code-avengers-2026-the-ultimate-coding-challenge-2026-10",
@@ -2734,7 +2366,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -2766,7 +2398,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -2795,7 +2427,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -2824,7 +2456,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -2854,7 +2486,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Hyderabad"
     },
@@ -2886,7 +2518,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -2914,7 +2546,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -2943,8 +2575,39 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
+    },
+    {
+      "id": "capture-the-flag-2026-10",
+      "name": "Capture The Flag",
+      "organiser": {
+        "name": "Symbiosis Center for Information Technology (SCIT), Pune",
+        "type": "company"
+      },
+      "scope": "city",
+      "mode": "in-person",
+      "themes": [
+        "ai",
+        "open-source",
+        "cybersecurity"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-03",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 4
+      },
+      "eligibility": "open",
+      "url": "https://unstop.com/hackathons/capture-the-flag-cyberon-2026-symbiosis-center-for-information-technology-scit-pune-1760810",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "locked": false,
+      "city": "Pune"
     },
     {
       "id": "capture-the-flag-ctf-2026-10",
@@ -2972,7 +2635,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -3002,7 +2665,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3031,7 +2694,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3060,7 +2723,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3089,7 +2752,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -3119,7 +2782,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3148,7 +2811,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3176,7 +2839,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3205,7 +2868,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3236,7 +2899,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3267,7 +2930,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3299,7 +2962,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Pune"
     },
@@ -3331,7 +2994,175 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
+      "locked": false
+    },
+    {
+      "id": "ml-competition-2026-10",
+      "name": "ML Competition",
+      "organiser": {
+        "name": "SRM University - AP",
+        "type": "university"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-04",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 1
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/ml-competition-qiskit-fall-fest-2026-srm-university-ap-1758822",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "locked": false
+    },
+    {
+      "id": "prompt-run-2026-2026-10",
+      "name": "Prompt Run 2026",
+      "organiser": {
+        "name": "Frontend Arena",
+        "type": "company"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-04",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 1
+      },
+      "eligibility": "open",
+      "url": "https://unstop.com/hackathons/prompt-run-2026-frontend-arena-1760943",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "locked": false
+    },
+    {
+      "id": "python-coding-challenge-in-qiskit-2026-10",
+      "name": "Python Coding Challenge in Qiskit",
+      "organiser": {
+        "name": "SRM University - AP",
+        "type": "university"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-04",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 1
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/python-coding-challenge-in-qiskit-srm-university-ap-1758799",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "locked": false
+    },
+    {
+      "id": "quantum-code-golf-2026-10",
+      "name": "Quantum Code Golf",
+      "organiser": {
+        "name": "SRM University - AP",
+        "type": "university"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-04",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 1
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/quantum-code-golf-qiskit-fall-fest-2026-srm-university-ap-1758823",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "locked": false
+    },
+    {
+      "id": "quantum-magnetometry-challenge-2026-10",
+      "name": "Quantum Magnetometry Challenge",
+      "organiser": {
+        "name": "SRM University - AP",
+        "type": "university"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-04",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 1
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/quantum-magnetometry-challenge-qiskit-fall-fest-2026-srm-university-ap-1758828",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "locked": false
+    },
+    {
+      "id": "quantum-noise-forensics-2026-10",
+      "name": "Quantum Noise Forensics",
+      "organiser": {
+        "name": "SRM University - AP",
+        "type": "university"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-04",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 1
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/quantum-noise-forensics-qiskit-fall-fest-2026-srm-university-ap-1759469",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3362,7 +3193,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3394,7 +3225,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Pune"
     },
@@ -3426,7 +3257,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3457,9 +3288,39 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-22",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Mumbai"
+    },
+    {
+      "id": "reconctf-26-2026-10",
+      "name": "ReConCTF'26",
+      "organiser": {
+        "name": "Indian Institute of Technology, Indian School of Mines (IIT ISM), Dhanbad",
+        "type": "university"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "cybersecurity",
+        "ai",
+        "open-source"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-05",
+      "prize": null,
+      "team": {
+        "min": 3,
+        "max": 4
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/reconctf26-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1760436",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "locked": false
     },
     {
       "id": "ride-hack-26-2026-10",
@@ -3486,7 +3347,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3518,7 +3379,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Coimbatore"
     },
@@ -3539,7 +3400,7 @@
       "ends": null,
       "registration_closes": "2026-10-07",
       "prize": {
-        "amount": 25000,
+        "amount": 50000,
         "currency": "INR"
       },
       "team": {
@@ -3551,7 +3412,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Jaipur"
     },
@@ -3580,7 +3441,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-22",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3609,7 +3470,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3637,7 +3498,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3666,7 +3527,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3695,7 +3556,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3724,7 +3585,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3753,7 +3614,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3782,7 +3643,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3811,7 +3672,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3842,7 +3703,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Pune"
     },
@@ -3874,7 +3735,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3902,7 +3763,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3931,7 +3792,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3962,7 +3823,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -3990,7 +3851,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4019,7 +3880,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4048,7 +3909,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4078,7 +3939,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Hyderabad"
     },
@@ -4108,7 +3969,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4137,7 +3998,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4165,7 +4026,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4194,7 +4055,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4222,7 +4083,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4248,12 +4109,12 @@
         "min": 1,
         "max": 4
       },
-      "eligibility": "students",
+      "eligibility": "open",
       "url": "https://unstop.com/hackathons/multimodal-ai-hackathon-2026-iit-mandi-1755408",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4284,7 +4145,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4315,41 +4176,9 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
-    },
-    {
-      "id": "hypnexis-2026-2026-10",
-      "name": "Hypnexis 2026",
-      "organiser": {
-        "name": "Manipal University (MU), Jaipur",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-10-15",
-      "prize": {
-        "amount": 775000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/competitions/hypnexis-2026-manipal-university-mu-jaipur-1711890",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
-      "locked": false,
-      "city": "Jaipur"
     },
     {
       "id": "hack-the-valley-2026-10",
@@ -4377,7 +4206,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4405,7 +4234,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4435,7 +4264,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4464,7 +4293,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4493,7 +4322,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4522,7 +4351,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4551,7 +4380,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4580,7 +4409,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4608,7 +4437,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4639,7 +4468,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4668,7 +4497,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4700,7 +4529,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4731,7 +4560,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4763,7 +4592,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4792,7 +4621,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4824,7 +4653,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4853,7 +4682,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -4884,7 +4713,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4916,7 +4745,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4948,7 +4777,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4980,7 +4809,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -5013,7 +4842,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -5046,7 +4875,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -5067,7 +4896,7 @@
       "ends": null,
       "registration_closes": "2026-10-19",
       "prize": {
-        "amount": 7000,
+        "amount": 5000,
         "currency": "INR"
       },
       "team": {
@@ -5079,7 +4908,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -5112,7 +4941,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -5145,7 +4974,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -5177,7 +5006,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -5210,7 +5039,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -5243,7 +5072,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -5264,7 +5093,7 @@
       "ends": null,
       "registration_closes": "2026-10-19",
       "prize": {
-        "amount": 5000,
+        "amount": 7000,
         "currency": "INR"
       },
       "team": {
@@ -5276,7 +5105,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -5305,7 +5134,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5336,7 +5165,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -5368,7 +5197,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -5400,7 +5229,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-22",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5423,12 +5252,69 @@
         "min": 3,
         "max": 4
       },
-      "eligibility": "open",
+      "eligibility": "students",
       "url": "https://unstop.com/hackathons/buildx-hackathon-code-a-nova-1760074",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
+      "locked": false
+    },
+    {
+      "id": "reality-vs-code-2026-10",
+      "name": "Reality vs Code",
+      "organiser": {
+        "name": "Punjab Engineering College (PEC), Chandigarh",
+        "type": "university"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-22",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 4
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/reality-vs-code-punjab-engineering-college-pec-chandigarh-1760950",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "locked": false
+    },
+    {
+      "id": "cal-hacks-13-0-2026-10",
+      "name": "Cal Hacks 13.0",
+      "organiser": {
+        "name": "Major League Hacking",
+        "type": "community"
+      },
+      "scope": "global",
+      "mode": "in-person",
+      "themes": [
+        "other"
+      ],
+      "starts": "2026-10-23",
+      "ends": "2026-10-25",
+      "registration_closes": null,
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 4
+      },
+      "eligibility": "students",
+      "location": "San Francisco, California",
+      "url": "https://calhacks.io/",
+      "source": "mlh",
+      "source_url": "https://www.mlh.com/seasons/2027/events",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5457,7 +5343,35 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
+      "locked": false
+    },
+    {
+      "id": "code-star-30-national-level-hackathon-2026-10",
+      "name": "Code star 30 \u2014 National-Level Hackathon",
+      "organiser": {
+        "name": "WeCodeCoders",
+        "type": "company"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-24",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 4
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/codestar-30-national-level-hackathon-wecodecoders-1760472",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5486,7 +5400,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5515,7 +5429,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5544,7 +5458,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5575,7 +5489,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5604,7 +5518,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5635,7 +5549,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5664,7 +5578,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5692,7 +5606,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-18",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5721,7 +5635,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -5751,7 +5665,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5780,7 +5694,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-22",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5809,7 +5723,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5838,7 +5752,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5867,7 +5781,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5896,7 +5810,65 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
+      "locked": false
+    },
+    {
+      "id": "makeuc-2026-11",
+      "name": "MakeUC",
+      "organiser": {
+        "name": "Major League Hacking",
+        "type": "community"
+      },
+      "scope": "global",
+      "mode": "in-person",
+      "themes": [
+        "other"
+      ],
+      "starts": "2026-11-07",
+      "ends": "2026-11-08",
+      "registration_closes": null,
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 4
+      },
+      "eligibility": "students",
+      "location": "Cincinnati , Ohio",
+      "url": "https://makeuc.io/",
+      "source": "mlh",
+      "source_url": "https://www.mlh.com/seasons/2027/events",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
+      "locked": false
+    },
+    {
+      "id": "emory-hacks-2026-11",
+      "name": "Emory Hacks",
+      "organiser": {
+        "name": "Major League Hacking",
+        "type": "community"
+      },
+      "scope": "global",
+      "mode": "in-person",
+      "themes": [
+        "other"
+      ],
+      "starts": "2026-11-13",
+      "ends": "2026-11-15",
+      "registration_closes": null,
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 4
+      },
+      "eligibility": "students",
+      "location": "Atlanta, GA",
+      "url": "https://emoryhacks.com/",
+      "source": "mlh",
+      "source_url": "https://www.mlh.com/seasons/2027/events",
+      "first_seen": "2026-09-24",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5925,7 +5897,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5954,7 +5926,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -5983,7 +5955,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6012,7 +5984,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6041,7 +6013,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6070,7 +6042,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6099,7 +6071,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6128,7 +6100,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6157,7 +6129,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6186,7 +6158,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6215,7 +6187,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6244,7 +6216,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6273,7 +6245,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6302,7 +6274,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6331,7 +6303,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6360,7 +6332,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6389,7 +6361,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6418,7 +6390,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6447,7 +6419,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6476,7 +6448,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6505,7 +6477,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6534,7 +6506,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6563,7 +6535,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6592,7 +6564,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6621,7 +6593,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6650,7 +6622,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6679,7 +6651,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6708,7 +6680,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6737,7 +6709,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     },
     {
@@ -6766,7 +6738,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-24",
       "locked": false
     }
   ]
