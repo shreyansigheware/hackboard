@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-03T06:52:15+00:00",
+  "last_updated": "2026-10-04T07:14:45+00:00",
   "note": "Real, verified events only. Every row keeps a source_url.",
   "events": [
     {
@@ -30,7 +30,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -61,7 +61,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -93,7 +93,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -124,7 +124,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -155,7 +155,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -187,7 +187,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -218,7 +218,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -250,7 +250,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -281,7 +281,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -297,7 +297,7 @@
         "fintech"
       ],
       "starts": "2026-08-21",
-      "ends": "2026-10-03",
+      "ends": "2026-10-05",
       "registration_closes": null,
       "prize": {
         "amount": 0,
@@ -312,7 +312,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -343,7 +343,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -374,7 +374,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -406,7 +406,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -438,7 +438,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -470,7 +470,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Bangalore"
     },
@@ -502,7 +502,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -534,7 +534,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -567,7 +567,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -598,7 +598,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -630,7 +630,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -661,7 +661,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -692,38 +692,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "svyca-youth-for-earth-y4e-hackathon-2026-09",
-      "name": "SVYCA Youth for Earth (Y4E) Hackathon",
-      "organiser": {
-        "name": "Silicon Valley Youth Climate Action",
-        "type": "company"
-      },
-      "scope": "global",
-      "mode": "online",
-      "themes": [
-        "sustainability"
-      ],
-      "starts": "2026-09-20",
-      "ends": "2026-10-18",
-      "registration_closes": null,
-      "prize": {
-        "amount": 2700,
-        "currency": "USD"
-      },
-      "team": {
-        "min": 1,
-        "max": null
-      },
-      "eligibility": "open",
-      "url": "https://svycay4e.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "first_seen": "2026-09-28",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -754,7 +723,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -785,7 +754,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -816,7 +785,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -847,7 +816,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-25",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -878,7 +847,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -909,7 +878,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -941,7 +910,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -973,7 +942,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -1005,7 +974,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -1037,7 +1006,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -1068,38 +1037,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "uiuc-product-hackathon-hack-to-the-future-2026-09",
-      "name": "UIUC Product Hackathon - Hack to the Future",
-      "organiser": {
-        "name": "Product Space UIUC",
-        "type": "company"
-      },
-      "scope": "global",
-      "mode": "online",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-09-29",
-      "ends": "2026-10-03",
-      "registration_closes": null,
-      "prize": {
-        "amount": 0,
-        "currency": "USD"
-      },
-      "team": {
-        "min": 1,
-        "max": null
-      },
-      "eligibility": "open",
-      "url": "https://product-hackathon-uiuc.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -1130,39 +1068,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "aic-internal-competition-2026-agentic-ai-2026-09",
-      "name": "AIC Internal Competition -2026 (Agentic AI)",
-      "organiser": {
-        "name": "AI Community @ SBU",
-        "type": "company"
-      },
-      "scope": "global",
-      "mode": "online",
-      "themes": [
-        "ai",
-        "other"
-      ],
-      "starts": "2026-09-30",
-      "ends": "2026-10-12",
-      "registration_closes": null,
-      "prize": {
-        "amount": 0,
-        "currency": "USD"
-      },
-      "team": {
-        "min": 1,
-        "max": null
-      },
-      "eligibility": "open",
-      "url": "https://aic-ic-2026.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "first_seen": "2026-10-01",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -1193,7 +1099,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -1224,299 +1130,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "bigred-hacks-2026-2026-10",
-      "name": "BigRed//Hacks 2026",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-02",
-      "ends": "2026-10-04",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Ithaca, New York",
-      "url": "https://www.bigredhacks.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "gator-quant-hacks-2026-10",
-      "name": "Gator Quant Hacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-02",
-      "ends": "2026-10-04",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Gainesville, Florida",
-      "url": "https://www.gqhacks.com",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "cortex-hackathon-2026-10",
-      "name": "Cortex Hackathon",
-      "organiser": {
-        "name": "MIT World Peace University, Pune, Maharashtra",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-10-03",
-      "prize": {
-        "amount": 5000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 3,
-        "max": 5
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/cortex-hackathon-mit-world-peace-university-pune-maharashtra-1762965",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
-      "locked": false,
-      "city": "Pune"
-    },
-    {
-      "id": "girlhacks-2026-10",
-      "name": "GirlHacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-03",
-      "ends": "2026-10-04",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Newark, NJ",
-      "url": "https://www.njitgirlhacks.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hack-dearborn-5-conjure-reality-2026-10",
-      "name": "Hack Dearborn 5: Conjure Reality",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-03",
-      "ends": "2026-10-04",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Dearborn, Michigan",
-      "url": "https://www.hackdearborn.org/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "mhacks-2026-10",
-      "name": "MHacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-03",
-      "ends": "2026-10-04",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Ann Arbor, MI",
-      "url": "https://www.mhacks.org/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "rowdy-hacks-2026-10",
-      "name": "Rowdy Hacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-03",
-      "ends": "2026-10-04",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "San Antonio, Texas",
-      "url": "https://rowdyhacks.org",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "stormhacks-2026-10",
-      "name": "StormHacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-03",
-      "ends": "2026-10-04",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Burnaby, British Columbia",
-      "url": "https://www.stormhacks.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "wolfhacks-by-acm-at-nc-state-2026-10",
-      "name": "WolfHacks by ACM at NC State",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-03",
-      "ends": "2026-10-04",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Raleigh, NC",
-      "url": "https://wolfhacks.org/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "codestorm-2026-building-the-future-of-mobility-hackathon-2026-10",
-      "name": "CodeStorm 2026 \u2013 Building the Future of Mobility Hackathon",
-      "organiser": {
-        "name": "Vellore Institute of Technology (VIT-AP), Andhra Pradesh",
-        "type": "university"
-      },
-      "scope": "india",
-      "mode": "online",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-10-04",
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/codestorm-2026-building-the-future-of-mobility-hackathon-vellore-institute-of-technology-vit-ap-andhra-prades-1764677",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -1547,37 +1161,8 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
-    },
-    {
-      "id": "hacksphere-2-0-2026-10",
-      "name": "HackSphere 2.0",
-      "organiser": {
-        "name": "Ideal Institute Of Management And Technology And School Of Law",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-10-04",
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 3
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/hacksphere-20-ideal-techno-fair-2026-ideal-institute-of-management-and-technology-and-school-of-law-1759043",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-10-03",
-      "locked": false,
-      "city": "Delhi NCR"
     },
     {
       "id": "sangyan-hackathon-2026-10",
@@ -1607,7 +1192,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -1638,7 +1223,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-25",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Bangalore"
     },
@@ -1670,7 +1255,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -1702,7 +1287,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Chennai"
     },
@@ -1734,7 +1319,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Pune"
     },
@@ -1766,7 +1351,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -1798,15 +1383,15 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Mumbai"
     },
     {
-      "id": "hackforge-2026-2026-10",
-      "name": "HackForge 2026",
+      "id": "hackathon-qiskit-fall-fest-x-iiit-delhi-2026-10",
+      "name": "Hackathon: Qiskit Fall Fest x IIIT Delhi",
       "organiser": {
-        "name": "Mukesh Patel college of engineering and management, (MPSTME\u00a0)",
+        "name": "IIITD (Indraprastha Institute of information technology delhi)",
         "type": "university"
       },
       "scope": "city",
@@ -1818,21 +1403,21 @@
       "ends": null,
       "registration_closes": "2026-10-08",
       "prize": {
-        "amount": 12000,
+        "amount": 10000,
         "currency": "INR"
       },
       "team": {
         "min": 1,
-        "max": 3
+        "max": 4
       },
       "eligibility": "open",
-      "url": "https://unstop.com/hackathons/hackforge-2026-mukesh-patel-college-of-engineering-and-management-mpstme-1759668",
+      "url": "https://unstop.com/hackathons/hackathon-qiskit-fall-fest-x-iiit-delhi-iiitd-indraprastha-institute-of-information-technology-delhi-1765560",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-10-03",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
       "locked": false,
-      "city": "Mumbai"
+      "city": "Delhi NCR"
     },
     {
       "id": "national-young-programmers-olympiad-2026-10",
@@ -1862,7 +1447,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -1894,183 +1479,9 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Pune"
-    },
-    {
-      "id": "hack-knight-2026-10",
-      "name": "Hack Knight",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-09",
-      "ends": "2026-10-11",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Flushing, New York",
-      "url": "https://hackknight.org/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackbios-2026-10",
-      "name": "HackBIOS",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-09",
-      "ends": "2026-10-10",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Bhilai, Chhattisgarh",
-      "url": "https://hackbios.xyz/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-11",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hacknc-2026-10",
-      "name": "HackNC",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-09",
-      "ends": "2026-10-11",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Chapel Hill, North Carolina",
-      "url": "https://hacknc.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackathon-tecnm-campus-saltillo-2026-2026-10",
-      "name": "Hackathon TecNM Campus Saltillo 2026",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-09",
-      "ends": "2026-10-10",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Saltillo, Coahuila",
-      "url": "https://www.road2tech.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-17",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hacklanta-2026-10",
-      "name": "Hacklanta",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-09",
-      "ends": "2026-10-11",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Atlanta, Georgia",
-      "url": "https://hacklanta.dev",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-11",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "knight-hacks-ix-2026-10",
-      "name": "Knight Hacks IX",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-09",
-      "ends": "2026-10-11",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Orlando, Florida",
-      "url": "https://2026.knighthacks.org/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
     },
     {
       "id": "vortexa-3-0-12-hour-hackathon-2026-10",
@@ -2100,41 +1511,9 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Pune"
-    },
-    {
-      "id": "ai-manthan-2-0-2026-10",
-      "name": "AI-Manthan 2.0",
-      "organiser": {
-        "name": "Acropolis Institute of Technology and Research, Indore",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-10-10",
-      "prize": {
-        "amount": 50000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "open",
-      "url": "https://unstop.com/hackathons/ai-manthan-20-acropolis-institute-of-technology-and-research-indore-1751106",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-10-03",
-      "locked": false,
-      "city": "Indore"
     },
     {
       "id": "codehive-1v1-real-time-dsa-duel-championship-2026-10",
@@ -2164,36 +1543,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "codered-orion-2026-10",
-      "name": "CodeRED Orion",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-10",
-      "ends": "2026-10-11",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Houston, Texas",
-      "url": "https://uhcode.red/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -2221,12 +1571,12 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
-      "id": "cryovault-2026-2026-10",
-      "name": "Cryovault 2026",
+      "id": "cryovault-2026-ctf-2026-10",
+      "name": "Cryovault 2026 CTF",
       "organiser": {
         "name": "PES University (PESU), Bengaluru",
         "type": "university"
@@ -2234,8 +1584,8 @@
       "scope": "india",
       "mode": "online",
       "themes": [
-        "ai",
-        "cybersecurity"
+        "cybersecurity",
+        "ai"
       ],
       "starts": null,
       "ends": null,
@@ -2249,8 +1599,8 @@
       "url": "https://unstop.com/hackathons/cryovault-2026-pes-university-pesu-bengaluru-1763736",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -2278,98 +1628,8 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
-    },
-    {
-      "id": "gta-hack-city-2026-10",
-      "name": "GTA: Hack City",
-      "organiser": {
-        "name": "Campus Konnect",
-        "type": "company"
-      },
-      "scope": "india",
-      "mode": "online",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-10-10",
-      "prize": {
-        "amount": 1000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 1,
-        "max": 3
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/gta-hack-city-campus-konnect-1762124",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackru-2026-10",
-      "name": "HackRU",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-10",
-      "ends": "2026-10-11",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Piscataway, New Jersey ",
-      "url": "https://www.hackru.org/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-11",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "innohacks-4-0-2026-10",
-      "name": "Innohacks 4.0",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-10",
-      "ends": "2026-10-11",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Ghaziabad, Uttar Pradesh",
-      "url": "https://innohacks.live",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false,
-      "city": "Delhi NCR"
     },
     {
       "id": "jai-2026-hackathon-jaypee-agentic-ai-hackathon-2026-2026-10",
@@ -2396,38 +1656,9 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
-    },
-    {
-      "id": "palmetto-hacks-2026-10",
-      "name": "Palmetto Hacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-10",
-      "ends": "2026-10-11",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Columbia, SC",
-      "url": "https://palmettohacks.ktpusc.com",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-16",
-      "last_seen": "2026-10-03",
-      "locked": false
     },
     {
       "id": "vortex-2k26-global-ai-innovation-hackathon-2026-10",
@@ -2454,36 +1685,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackphs-2026-10",
-      "name": "hackPHS",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-10",
-      "ends": "2026-10-11",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Princeton, New Jersey",
-      "url": "https://hackphs.tech",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-11",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -2514,7 +1716,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Jaipur"
     },
@@ -2544,7 +1746,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -2576,7 +1778,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -2607,7 +1809,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -2638,7 +1840,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -2669,7 +1871,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -2700,42 +1902,8 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
-    },
-    {
-      "id": "cryptx-2026-10",
-      "name": "CryptX",
-      "organiser": {
-        "name": "Chaitanya Bharathi Institute of Technology (CBIT), Hyderabad",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai",
-        "cybersecurity",
-        "open-source"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-10-12",
-      "prize": {
-        "amount": 5000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 1,
-        "max": 1
-      },
-      "eligibility": "open",
-      "url": "https://unstop.com/hackathons/cryptx-chaitanya-bharathi-institute-of-technology-cbit-hyderabad-1761452",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-10-03",
-      "locked": false,
-      "city": "Hyderabad"
     },
     {
       "id": "malanhack-2026-10",
@@ -2765,7 +1933,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -2793,7 +1961,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -2821,7 +1989,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Indore"
     },
@@ -2840,7 +2008,10 @@
       "starts": null,
       "ends": null,
       "registration_closes": "2026-10-15",
-      "prize": null,
+      "prize": {
+        "amount": 3700,
+        "currency": "INR"
+      },
       "team": {
         "min": 1,
         "max": 1
@@ -2850,7 +2021,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -2874,7 +2045,7 @@
         "currency": "INR"
       },
       "team": {
-        "min": 1,
+        "min": 2,
         "max": 2
       },
       "eligibility": "open",
@@ -2882,7 +2053,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -2911,7 +2082,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -2942,8 +2113,40 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
+    },
+    {
+      "id": "devlympics-2026-10",
+      "name": "Devlympics",
+      "organiser": {
+        "name": "Netaji Subhas University of Technology (NSUT), Delhi",
+        "type": "university"
+      },
+      "scope": "city",
+      "mode": "in-person",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-15",
+      "prize": {
+        "amount": 60000,
+        "currency": "INR"
+      },
+      "team": {
+        "min": 1,
+        "max": 3
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/devlympics-shunya-2026-netaji-subhas-university-of-technology-nsut-delhi-1764596",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
+      "locked": false,
+      "city": "Delhi NCR"
     },
     {
       "id": "drone-race-2026-10",
@@ -2974,7 +2177,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3006,7 +2209,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3038,7 +2241,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3070,7 +2273,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3103,7 +2306,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3136,7 +2339,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3169,7 +2372,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3201,7 +2404,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3234,7 +2437,40 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
+      "locked": false,
+      "city": "Delhi NCR"
+    },
+    {
+      "id": "robo-soccer-2026-10",
+      "name": "Robo Soccer",
+      "organiser": {
+        "name": "Navrachna Foundation For Entrepreneurship Development",
+        "type": "company"
+      },
+      "scope": "city",
+      "mode": "in-person",
+      "themes": [
+        "ai",
+        "hardware"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-15",
+      "prize": {
+        "amount": 5000,
+        "currency": "INR"
+      },
+      "team": {
+        "min": 1,
+        "max": 2
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/robo-soccer-techtrix26-navrachna-foundation-for-entrepreneurship-development-1749773",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3267,9 +2503,37 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-20",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
+    },
+    {
+      "id": "techarena-2026-2026-10",
+      "name": "TechArena 2026",
+      "organiser": {
+        "name": "Learnix Labs",
+        "type": "company"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-15",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 1
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/competitions/techarena-2026-learnix-labs-1764485",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
+      "locked": false
     },
     {
       "id": "web-home-ui-designer-challenge-2026-10",
@@ -3296,7 +2560,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -3324,9 +2588,41 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Bangalore"
+    },
+    {
+      "id": "autopilot-2026-10",
+      "name": "AutoPilot",
+      "organiser": {
+        "name": "Netaji Subhas University of Technology (NSUT), Delhi",
+        "type": "university"
+      },
+      "scope": "city",
+      "mode": "in-person",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-16",
+      "prize": {
+        "amount": 60000,
+        "currency": "INR"
+      },
+      "team": {
+        "min": 1,
+        "max": 3
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/autopilot-shunya-2026-netaji-subhas-university-of-technology-nsut-delhi-1764668",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
+      "locked": false,
+      "city": "Delhi NCR"
     },
     {
       "id": "dohyo-robo-sumo-2026-10",
@@ -3353,42 +2649,13 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-26",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
     {
-      "id": "hack-the-valley-2026-10",
-      "name": "Hack the Valley",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-16",
-      "ends": "2026-10-18",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Scarborough, Ontario",
-      "url": "https://hackthevalley.io/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackiiitd-2026-10",
-      "name": "HackIIITD",
+      "id": "hackshift-cmd-shift-create-2026-10",
+      "name": "HackShift - Cmd+Shift+Create",
       "organiser": {
         "name": "Indraprastha Institute of Information Technology (IIIT), Delhi",
         "type": "university"
@@ -3402,77 +2669,19 @@
       "ends": null,
       "registration_closes": "2026-10-16",
       "prize": {
-        "amount": 100000,
+        "amount": 50000,
         "currency": "INR"
       },
       "team": {
-        "min": 2,
-        "max": 4
-      },
-      "eligibility": "open",
-      "url": "https://unstop.com/hackathons/hackiiitd-esya26-indraprastha-institute-of-information-technology-iiit-delhi-1761212",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-10-03",
-      "locked": false,
-      "city": "Delhi NCR"
-    },
-    {
-      "id": "hackshift-cmd-shift-create-2026-10",
-      "name": "HackShift - Cmd, Shift, Create",
-      "organiser": {
-        "name": "Indraprastha Institute of Information Technology (IIIT), Delhi",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-10-16",
-      "prize": null,
-      "team": {
         "min": 1,
-        "max": 4
+        "max": 5
       },
       "eligibility": "students",
       "url": "https://unstop.com/hackathons/hackshift-cmd-shift-create-indraprastha-institute-of-information-technology-iiit-delhi-1765142",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03",
-      "locked": false,
-      "city": "Delhi NCR"
-    },
-    {
-      "id": "ipl-iiitd-programming-league-2026-2026-10",
-      "name": "IPL (IIITD Programming League) 2026",
-      "organiser": {
-        "name": "Indraprastha Institute of Information Technology (IIIT), Delhi",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-10-16",
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 1
-      },
-      "eligibility": "open",
-      "url": "https://unstop.com/hackathons/ipl-iiitd-programming-league-2026-esya26-indraprastha-institute-of-information-technology-iiit-delhi-1761263",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3502,38 +2711,9 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-26",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
-    },
-    {
-      "id": "swamphacks-xii-2026-10",
-      "name": "SwampHacks XII",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-16",
-      "ends": "2026-10-18",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Gainesville, Florida",
-      "url": "https://swamphacks.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
     },
     {
       "id": "takeshi-s-bots-robo-maze-2026-10",
@@ -3561,154 +2741,41 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-26",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
     {
-      "id": "dubhacks-2026-10",
-      "name": "DubHacks",
+      "id": "zero-day-apocalypse-2026-10",
+      "name": "Zero Day Apocalypse",
       "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
+        "name": "Netaji Subhas University of Technology (NSUT), Delhi",
+        "type": "university"
       },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-17",
-      "ends": "2026-10-18",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Seattle, Washington",
-      "url": "https://dh26.dubhacks.co/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-11",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "girls-hoo-hack-2026-2026-10",
-      "name": "Girls Hoo Hack 2026",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-17",
-      "ends": "2026-10-18",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Charlottesville, VA",
-      "url": "https://www.girlshoohack.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-11",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackgb-2026-10",
-      "name": "HackGB",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-17",
-      "ends": "2026-10-18",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Green Bay, WI",
-      "url": "https://hackgb.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-11",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "iku-womxn-in-stem-hackathon-2026-10",
-      "name": "IKU Womxn in STEM Hackathon",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-17",
-      "ends": "2026-10-18",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "London, London",
-      "url": "https://ikuwomxninstemhackathon.co.uk/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "la-hacks-ai-hackathon-2026-2026-10",
-      "name": "LA Hacks AI Hackathon 2026",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
+      "scope": "city",
       "mode": "in-person",
       "themes": [
         "ai"
       ],
-      "starts": "2026-10-17",
-      "ends": "2026-10-18",
-      "registration_closes": null,
-      "prize": null,
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-16",
+      "prize": {
+        "amount": 60000,
+        "currency": "INR"
+      },
       "team": {
         "min": 1,
-        "max": 4
+        "max": 3
       },
       "eligibility": "students",
-      "location": "Los Angeles, CA",
-      "url": "https://ai.lahacks.com",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
+      "url": "https://unstop.com/hackathons/zero-day-apocalypse-shunya-2026-netaji-subhas-university-of-technology-nsut-delhi-1764669",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
+      "locked": false,
+      "city": "Delhi NCR"
     },
     {
       "id": "prompt-ae-thon-2026-10",
@@ -3735,7 +2802,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3764,38 +2831,9 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
-    },
-    {
-      "id": "technica-hacks-2026-10",
-      "name": "Technica Hacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-17",
-      "ends": "2026-10-18",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Hyattsville, Maryland",
-      "url": "https://gotechnica.org/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-11",
-      "last_seen": "2026-10-03",
-      "locked": false
     },
     {
       "id": "the-code-voyage-the-ultimate-coding-battle-2026-10",
@@ -3822,7 +2860,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3854,7 +2892,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -3883,7 +2921,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -3911,7 +2949,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -3939,7 +2977,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -3967,7 +3005,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -3995,7 +3033,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -4026,7 +3064,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Pune"
     },
@@ -4058,152 +3096,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "cal-hacks-13-0-2026-10",
-      "name": "Cal Hacks 13.0",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-23",
-      "ends": "2026-10-25",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "San Francisco, California",
-      "url": "https://calhacks.io/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "sbuhacks-2026-10",
-      "name": "SBUHacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-23",
-      "ends": "2026-10-25",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Stony Brook, New York",
-      "url": "https://hack.sbcs.io/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hack-at-penn-state-2026-10",
-      "name": "Hack at Penn State",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-24",
-      "ends": "2026-10-25",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "University Park, PA",
-      "url": "https://hackpsu.org",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hacktx-26-2026-10",
-      "name": "HackTX 26",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-24",
-      "ends": "2026-10-25",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Austin, TX",
-      "url": "https://hacktx.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "oxhack-26-2026-10",
-      "name": "OxHack '26",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-24",
-      "ends": "2026-10-25",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Oxford, England",
-      "url": "https://26.oxhack.net/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-16",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -4231,7 +3124,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -4259,7 +3152,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -4287,35 +3180,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "codeverse-2026-open-innovation-hackathon-2026-10",
-      "name": "CodeVerse 2026 - Open Innovation Hackathon",
-      "organiser": {
-        "name": "CodeVerse Community",
-        "type": "university"
-      },
-      "scope": "india",
-      "mode": "online",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-10-30",
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/codeverse-2026-open-innovation-hackathon-codeverse-community-1764453",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -4346,9 +3211,37 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Kolkata"
+    },
+    {
+      "id": "runup-coders-hackathon-2026-2026-10",
+      "name": "RunUp Coders Hackathon 2026",
+      "organiser": {
+        "name": "CodeVerse Community",
+        "type": "university"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-10-30",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 4
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/codeverse-2026-open-innovation-hackathon-codeverse-community-1764453",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
+      "locked": false
     },
     {
       "id": "sea-of-secrets-ctf-2026-10",
@@ -4367,17 +3260,20 @@
       "starts": null,
       "ends": null,
       "registration_closes": "2026-10-30",
-      "prize": null,
+      "prize": {
+        "amount": 24000,
+        "currency": "INR"
+      },
       "team": {
         "min": 1,
         "max": 1
       },
-      "eligibility": "students",
+      "eligibility": "open",
       "url": "https://unstop.com/hackathons/sea-of-secrets-ctf-hackitup-1764913",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -4405,7 +3301,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -4433,7 +3329,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -4461,38 +3357,8 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
-    },
-    {
-      "id": "hackcbs-9-o-2026-10",
-      "name": "hackCBS 9.O",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-10-31",
-      "ends": "2026-11-01",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "New delhi, New delhi",
-      "url": "https://hackcbs.tech",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false,
-      "city": "Delhi NCR"
     },
     {
       "id": "codenexus-india-2026-national-hackathon-2026-11",
@@ -4519,297 +3385,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hacktrent-2026-11",
-      "name": "HackTrent",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-06",
-      "ends": "2026-11-08",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Peterborough, Ontario",
-      "url": "https://www.hacktrent.ca/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "ycp-hacks-2026-11",
-      "name": "YCP Hacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-06",
-      "ends": "2026-11-08",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "York PA, PA",
-      "url": "https://ycphacks.io/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-23",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "communihacks-2026-11",
-      "name": "CommuniHacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-07",
-      "ends": "2026-11-08",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Kitchener, Ontario",
-      "url": "https://www.communihacks.ca",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-22",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackcamp-2026-11",
-      "name": "HackCamp",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-07",
-      "ends": "2026-11-08",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Vancovuer, British Columbia",
-      "url": "https://hackcamp.nwplus.io/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-11",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackrpi-2026-2026-11",
-      "name": "HackRPI 2026",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-07",
-      "ends": "2026-11-08",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Troy, New York",
-      "url": "https://hackrpi.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackutd-2026-11",
-      "name": "HackUTD",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-07",
-      "ends": "2026-11-08",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Richardson, Texas",
-      "url": "https://zeroday.hackutd.co",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "makecu-2026-11",
-      "name": "MakeCU",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-07",
-      "ends": "2026-11-08",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "New York, New York",
-      "url": "https://v0-curc-makecu.vercel.app/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "makeuc-2026-11",
-      "name": "MakeUC",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-07",
-      "ends": "2026-11-08",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Cincinnati , Ohio",
-      "url": "https://makeuc.io/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "sheridan-datathon-2026-2026-11",
-      "name": "Sheridan Datathon 2026",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-07",
-      "ends": "2026-11-08",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Mississauga, Ontario",
-      "url": "https://sheridandatathon.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-25",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "tamu-datathon-2026-11",
-      "name": "TAMU Datathon",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-07",
-      "ends": "2026-11-08",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "College Station, Texas",
-      "url": "https://tamudatathon.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -4837,8 +3413,40 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
+    },
+    {
+      "id": "vihaan-x-software-track-2026-11",
+      "name": "Vihaan X: Software Track",
+      "organiser": {
+        "name": "Delhi Technological University (DTU), New Delhi",
+        "type": "university"
+      },
+      "scope": "city",
+      "mode": "in-person",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-11-09",
+      "prize": {
+        "amount": 5000,
+        "currency": "INR"
+      },
+      "team": {
+        "min": 1,
+        "max": 4
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/vihaan-x-software-track-dtu-new-delhi-1761841",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
+      "locked": false,
+      "city": "Delhi NCR"
     },
     {
       "id": "cipher-chase-capture-the-flag-2026-11",
@@ -4866,7 +3474,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -4894,7 +3502,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -4922,123 +3530,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "emory-hacks-2026-11",
-      "name": "Emory Hacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-13",
-      "ends": "2026-11-15",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Atlanta, GA",
-      "url": "https://emoryhacks.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackumass-2026-11",
-      "name": "HackUMass",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-13",
-      "ends": "2026-11-15",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Amherst, MA",
-      "url": "https://www.hackumass.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "unihack-2026-11",
-      "name": "UniHack",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-13",
-      "ends": "2026-11-15",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Timi\u0219oara, Timi\u0219",
-      "url": "https://unihack.eu/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-10-01",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "durhack-2026-11",
-      "name": "DurHack",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-14",
-      "ends": "2026-11-15",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Durham, County Durham",
-      "url": "https://durhack.com",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -5068,8 +3560,72 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
+    },
+    {
+      "id": "algosstrike-2026-11",
+      "name": "AlgoSSTrike",
+      "organiser": {
+        "name": "Scaler School of Technology, Bengaluru, Karnataka",
+        "type": "university"
+      },
+      "scope": "city",
+      "mode": "in-person",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-11-15",
+      "prize": {
+        "amount": 12000,
+        "currency": "INR"
+      },
+      "team": {
+        "min": 3,
+        "max": 3
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/algosstrike-scaler-school-of-technology-bengaluru-karnataka-1765493",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
+      "locked": false,
+      "city": "Bangalore"
+    },
+    {
+      "id": "the-devforge-hackathon-2026-11",
+      "name": "The DevForge - Hackathon",
+      "organiser": {
+        "name": "Scaler School of Technology, Bengaluru, Karnataka",
+        "type": "university"
+      },
+      "scope": "city",
+      "mode": "in-person",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-11-15",
+      "prize": {
+        "amount": 25000,
+        "currency": "INR"
+      },
+      "team": {
+        "min": 2,
+        "max": 4
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/the-devforge-hackathon-scaler-school-of-technology-bengaluru-karnataka-1765465",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
+      "locked": false,
+      "city": "Bangalore"
     },
     {
       "id": "craft-n-code-chattisgarh-2026-11",
@@ -5099,7 +3655,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -5127,7 +3683,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-09-25",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Coimbatore"
     },
@@ -5159,7 +3715,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false
     },
     {
@@ -5187,791 +3743,39 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "locked": false,
       "city": "Delhi NCR"
     },
     {
-      "id": "deltahacks-2027-01",
-      "name": "DeltaHacks",
+      "id": "the-arcticathon-2027-01",
+      "name": "The Arcticathon",
       "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
+        "name": "Bidaya",
+        "type": "company"
       },
-      "scope": "global",
-      "mode": "in-person",
+      "scope": "india",
+      "mode": "online",
       "themes": [
-        "other"
+        "ai"
       ],
-      "starts": "2027-01-09",
-      "ends": "2027-01-10",
-      "registration_closes": null,
-      "prize": null,
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2027-01-31",
+      "prize": {
+        "amount": 100000,
+        "currency": "USD"
+      },
       "team": {
         "min": 1,
-        "max": 4
+        "max": 1
       },
       "eligibility": "students",
-      "location": "Hamilton, Ontario",
-      "url": "https://www.deltahacks.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "uofthacks-2027-01",
-      "name": "UofTHacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-01-15",
-      "ends": "2027-01-17",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Toronto, Ontario",
-      "url": "https://uofthacks.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "uottahack-9-2027-01",
-      "name": "uOttaHack 9",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-01-15",
-      "ends": "2027-01-17",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Ottawa, Ontario ",
-      "url": "https://2027.uottahack.ca/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "nwhacks-2027-01",
-      "name": "nwHacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-01-16",
-      "ends": "2027-01-17",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Vancouver, British Columbia",
-      "url": "https://nwhacks.io/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackville-2027-2027-01",
-      "name": "Hackville 2027",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-01-22",
-      "ends": "2027-01-24",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Missisauga, Ontario",
-      "url": "https://hackville.io/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hoya-hacks-2027-01",
-      "name": "Hoya Hacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-01-22",
-      "ends": "2027-01-24",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Washington, DC",
-      "url": "https://www.hoyahacks.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "ellehacks-2027-01",
-      "name": "ElleHacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-01-29",
-      "ends": "2027-01-31",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Toronto, Ontario",
-      "url": "https://ellehacks.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hack-brown-2027-2027-02",
-      "name": "Hack@Brown 2027",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-05",
-      "ends": "2027-02-07",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Providence, RI",
-      "url": "https://hackatbrown.org/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "ugahacks-2027-02",
-      "name": "UGAHacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-05",
-      "ends": "2027-02-07",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Athens , Georgia",
-      "url": "https://ugahacks.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hack-ncstate-2027-02",
-      "name": "Hack_NCState",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-06",
-      "ends": "2027-02-07",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Raleigh, North Carolina",
-      "url": "https://hackncstate.org/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "innovateher-2027-02",
-      "name": "InnovateHer",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-06",
-      "ends": "2027-02-07",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "West Lafayette, Indiana",
-      "url": "https://innovateherhacks.org/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "spartahack-2027-02",
-      "name": "SpartaHack",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-06",
-      "ends": "2027-02-07",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "East Lansing, Michigan",
-      "url": "https://www.spartahack.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "makeuoft-2027-02",
-      "name": "MakeUofT",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-13",
-      "ends": "2027-02-14",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Toronto, Ontario",
-      "url": "http://makeuoft.ca/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "sf-hacks-2027-02",
-      "name": "SF Hacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-19",
-      "ends": "2027-02-21",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "San Francisco, CA",
-      "url": "https://sfhacks.io",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "cuhackit-2027-02",
-      "name": "CUhackit",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-20",
-      "ends": "2027-02-21",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Clemson, SC",
-      "url": "https://cuhack.it/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackillinois-2027-02",
-      "name": "HackIllinois",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-26",
-      "ends": "2027-02-28",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Urbana, Illinois",
-      "url": "https://www.hackillinois.org/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hacklytics-2027-2027-02",
-      "name": "Hacklytics 2027",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-26",
-      "ends": "2027-02-28",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Atlanta, GA",
-      "url": "https://hacklytics2027.web.app/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackhers-2027-02",
-      "name": "HackHERS",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-27",
-      "ends": "2027-02-28",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "New Brunswick, New Jersey",
-      "url": "https://ruhackhers.org/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "revolutionuc-2027-02",
-      "name": "RevolutionUC",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-27",
-      "ends": "2027-02-28",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Cincinnati, Ohio",
-      "url": "https://www.revolutionuc.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "wichacks-2027-02",
-      "name": "WiCHacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-27",
-      "ends": "2027-02-28",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Rochester, New York",
-      "url": "https://wichacks.io/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "henhacks-2027-03",
-      "name": "HenHacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-03-06",
-      "ends": "2027-03-07",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Newark, Delaware",
-      "url": "https://www.henhackshackathon.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "kent-hack-enough-2027-03",
-      "name": "Kent Hack Enough",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-03-06",
-      "ends": "2027-03-07",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Kent, Ohio",
-      "url": "https://khe.io/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "diamondhacks-2027-04",
-      "name": "Diamondhacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-04-04",
-      "ends": "2027-04-05",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "La Jolla, California ",
-      "url": "https://diamondhacks.acmucsd.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "hackku27-2027-04",
-      "name": "HackKU27",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-04-09",
-      "ends": "2027-04-11",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Lawrence, Kansas",
-      "url": "https://www.hackku.org/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "marihacks-2027-04",
-      "name": "MariHacks",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-04-09",
-      "ends": "2027-04-10",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Montreal, Quebec",
-      "url": "https://www.marihacks.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "wehack-2027-04",
-      "name": "WEHack",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-04-10",
-      "ends": "2027-04-11",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Richardson, TX",
-      "url": "https://www.wehackutd.com/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
-      "locked": false
-    },
-    {
-      "id": "la-hacks-27-2027-04",
-      "name": "LA Hacks 27",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-04-16",
-      "ends": "2027-04-18",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Los Angeles, California",
-      "url": "https://lahacks.com",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-03",
+      "url": "https://unstop.com/hackathons/the-arcticathon-bidaya-1759619",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-10-04",
+      "last_seen": "2026-10-04",
       "locked": false
     }
   ]
