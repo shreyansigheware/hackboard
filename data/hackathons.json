@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T09:30:12+00:00",
+  "last_updated": "2026-11-24T11:25:11+00:00",
   "note": "Real, verified events only. Every row keeps a source_url.",
   "events": [
     {
@@ -30,7 +30,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -61,7 +61,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -92,7 +92,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -123,7 +123,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -154,7 +154,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -185,7 +185,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -217,7 +217,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -248,7 +248,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -279,7 +279,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-20",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -310,7 +310,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -342,7 +342,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -373,7 +373,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -404,7 +404,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -436,7 +436,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -468,7 +468,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -484,7 +484,7 @@
         "ai"
       ],
       "starts": "2026-10-27",
-      "ends": "2026-11-27",
+      "ends": "2026-12-09",
       "registration_closes": null,
       "prize": {
         "amount": 0,
@@ -499,7 +499,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -530,7 +530,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -562,7 +562,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -594,7 +594,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -626,12 +626,12 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
-      "id": "ml-empowerment-build-challenge-4-0-2026-11",
-      "name": "ML Empowerment Build Challenge 4.0",
+      "id": "ml-empowerment-build-challenge-4-0-250k-in-prizes-2026-11",
+      "name": "ML Empowerment Build Challenge 4.0 (250K IN PRIZES!)",
       "organiser": {
         "name": "ML Empowerment Foundation",
         "type": "company"
@@ -657,8 +657,8 @@
       "url": "https://ml-build-challenge-4.devpost.com/",
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
-      "first_seen": "2026-11-01",
-      "last_seen": "2026-11-23",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -689,7 +689,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -722,7 +722,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-03",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -753,7 +753,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -784,39 +784,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-23",
-      "locked": false
-    },
-    {
-      "id": "phystech-2027-physical-activity-and-technology-hack-day-2026-11",
-      "name": "PhysTech 2027: Physical Activity and Technology Hack Day",
-      "organiser": {
-        "name": "Binnovative",
-        "type": "company"
-      },
-      "scope": "global",
-      "mode": "online",
-      "themes": [
-        "healthtech",
-        "other"
-      ],
-      "starts": "2026-11-04",
-      "ends": "2027-06-26",
-      "registration_closes": null,
-      "prize": {
-        "amount": 0,
-        "currency": "USD"
-      },
-      "team": {
-        "min": 1,
-        "max": null
-      },
-      "eligibility": "open",
-      "url": "https://phystech2027.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -848,7 +816,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -880,7 +848,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -911,7 +879,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -943,7 +911,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -974,7 +942,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1005,7 +973,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1037,7 +1005,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1068,7 +1036,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1099,7 +1067,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1131,7 +1099,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1162,7 +1130,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1193,7 +1161,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1224,38 +1192,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
-      "locked": false
-    },
-    {
-      "id": "unihacks-2026-11",
-      "name": "unihacks",
-      "organiser": {
-        "name": "VidOpt LLC",
-        "type": "company"
-      },
-      "scope": "global",
-      "mode": "online",
-      "themes": [
-        "sustainability"
-      ],
-      "starts": "2026-11-15",
-      "ends": "2027-01-25",
-      "registration_closes": null,
-      "prize": {
-        "amount": 0,
-        "currency": "USD"
-      },
-      "team": {
-        "min": 1,
-        "max": null
-      },
-      "eligibility": "open",
-      "url": "https://unihacks-youth.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1286,7 +1223,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1317,159 +1254,7 @@
       "source": "devpost",
       "source_url": "https://devpost.com/hackathons",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-23",
-      "locked": false
-    },
-    {
-      "id": "diu-dev-meetup-2026-2026-11",
-      "name": "DIU Dev Meetup 2026",
-      "organiser": {
-        "name": "Data Science Club @ DIU",
-        "type": "company"
-      },
-      "scope": "global",
-      "mode": "online",
-      "themes": [
-        "other"
-      ],
-      "starts": "2026-11-22",
-      "ends": "2026-12-01",
-      "registration_closes": null,
-      "prize": {
-        "amount": 0,
-        "currency": "USD"
-      },
-      "team": {
-        "min": 1,
-        "max": null
-      },
-      "eligibility": "open",
-      "url": "https://diu-devthon.devpost.com/",
-      "source": "devpost",
-      "source_url": "https://devpost.com/hackathons",
-      "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
-      "locked": false
-    },
-    {
-      "id": "bioforge-2026-interdisciplinary-healthcare-innovation-hackat-2026-11",
-      "name": "BIOFORGE 2026 \u2013 Interdisciplinary Healthcare Innovation Hackathon",
-      "organiser": {
-        "name": "Dayananda Sagar College of Engineering (DSCE), Bengaluru",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "healthtech",
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-11-23",
-      "prize": null,
-      "team": {
-        "min": 3,
-        "max": 4
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/bioforge-2026-interdisciplinary-healthcare-innovation-hackathon-dayananda-sagar-college-of-engineering-dsce-b-1819682",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-11-22",
-      "last_seen": "2026-11-23",
-      "locked": false,
-      "city": "Bangalore"
-    },
-    {
-      "id": "buildathon-ai-hackathon-2026-11",
-      "name": "Buildathon: AI Hackathon",
-      "organiser": {
-        "name": "Dr MGR Institute of Education and Research Institute",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-11-23",
-      "prize": {
-        "amount": 7000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 3,
-        "max": 3
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/buildathon-ai-hackathon-dr-mgr-institute-of-education-and-research-institute-1815227",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-11-22",
-      "last_seen": "2026-11-23",
-      "locked": false,
-      "city": "Chennai"
-    },
-    {
-      "id": "code-to-cart-ai-x-e-commerce-hackathon-kartai-x-codexcelerat-2026-11",
-      "name": "Code to Cart: AI x E-commerce Hackathon | KartAI X CodeXcelerate",
-      "organiser": {
-        "name": "KartAI",
-        "type": "company"
-      },
-      "scope": "india",
-      "mode": "online",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-11-23",
-      "prize": {
-        "amount": 5000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "open",
-      "url": "https://unstop.com/hackathons/code-to-cart-ai-x-e-commerce-hackathon-kartai-x-codexcelerate-kartai-1803912",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-11-11",
-      "last_seen": "2026-11-23",
-      "locked": false
-    },
-    {
-      "id": "einohacks-2026-11",
-      "name": "EinoHacks",
-      "organiser": {
-        "name": "AltairX Tech",
-        "type": "company"
-      },
-      "scope": "india",
-      "mode": "online",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-11-23",
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 1
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/einohacks-altairx-tech-1820882",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-11-22",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1497,7 +1282,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -1531,7 +1316,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Jaipur"
     },
@@ -1563,7 +1348,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1595,7 +1380,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Hyderabad"
     },
@@ -1628,7 +1413,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Nagpur"
     },
@@ -1660,7 +1445,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1692,7 +1477,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-15",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1724,7 +1509,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Mumbai"
     },
@@ -1756,7 +1541,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1784,7 +1569,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1815,7 +1600,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1846,7 +1631,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1875,7 +1660,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Hyderabad"
     },
@@ -1907,7 +1692,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Lucknow"
     },
@@ -1939,7 +1724,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1967,7 +1752,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -1995,7 +1780,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2026,7 +1811,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-25",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Bangalore"
     },
@@ -2058,7 +1843,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2089,7 +1874,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2118,7 +1903,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2147,7 +1932,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2178,7 +1963,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2206,7 +1991,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2237,7 +2022,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2268,7 +2053,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Nagpur"
     },
@@ -2301,7 +2086,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Bangalore"
     },
@@ -2333,7 +2118,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2364,7 +2149,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2395,7 +2180,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2426,7 +2211,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2454,7 +2239,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2482,7 +2267,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2511,7 +2296,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Bhopal"
     },
@@ -2541,7 +2326,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Mumbai"
     },
@@ -2571,7 +2356,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Bhopal"
     },
@@ -2605,7 +2390,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2637,7 +2422,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2666,7 +2451,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2697,13 +2482,13 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Bangalore"
     },
     {
       "id": "protothon-2k26-2026-12",
-      "name": "Protothon 2K26",
+      "name": "Protothon 2k26",
       "organiser": {
         "name": "Hindustan Institute of Technology and Science (HITS), Chennai",
         "type": "university"
@@ -2726,7 +2511,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -2755,7 +2540,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2783,7 +2568,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2811,8 +2596,40 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
+    },
+    {
+      "id": "code-conquest-2026-12",
+      "name": "Code Conquest",
+      "organiser": {
+        "name": "Indian Institute of Technology (IIT), Madras",
+        "type": "university"
+      },
+      "scope": "city",
+      "mode": "in-person",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-12-03",
+      "prize": {
+        "amount": 20000,
+        "currency": "INR"
+      },
+      "team": {
+        "min": 2,
+        "max": 3
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/code-conquest-shaastra-2027-iit-madras-1783515",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-24",
+      "locked": false,
+      "city": "Chennai"
     },
     {
       "id": "codeelitepune-hack-with-pune-2026-12",
@@ -2839,7 +2656,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2867,7 +2684,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2898,7 +2715,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2929,7 +2746,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2958,7 +2775,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -2989,7 +2806,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -3021,41 +2838,9 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Bangalore"
-    },
-    {
-      "id": "zenith-26-2026-12",
-      "name": "Zenith'26",
-      "organiser": {
-        "name": "MLR Institute Of Technology (MLRIT), Hyderabad",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-12-04",
-      "prize": {
-        "amount": 150000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 3,
-        "max": 4
-      },
-      "eligibility": "students",
-      "url": "https://unstop.com/hackathons/zenith26-mlr-institute-of-technology-mlrit-hyderabad-1790028",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-11-10",
-      "last_seen": "2026-11-23",
-      "locked": false,
-      "city": "Hyderabad"
     },
     {
       "id": "agentx-2026-12",
@@ -3085,37 +2870,8 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
-    },
-    {
-      "id": "hojohborolo-2026-12",
-      "name": "Hojohborolo",
-      "organiser": {
-        "name": "Department of Information Technology, Jadavpur University",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-12-05",
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "open",
-      "url": "https://unstop.com/hackathons/hojohborolo-kernel-10-department-of-information-technology-jadavpur-university-1822587",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-11-22",
-      "last_seen": "2026-11-23",
-      "locked": false,
-      "city": "Kolkata"
     },
     {
       "id": "incursion-2027-24-hour-national-level-hackathon-2026-12",
@@ -3146,7 +2902,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Pune"
     },
@@ -3177,7 +2933,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-24",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3208,7 +2964,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3236,7 +2992,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3264,7 +3020,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -3293,7 +3049,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3324,7 +3080,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3356,7 +3112,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3384,7 +3140,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3412,7 +3168,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Hyderabad"
     },
@@ -3446,7 +3202,37 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
+      "locked": false
+    },
+    {
+      "id": "blackpanda-labs-ctf-2026-free-international-cybersecurity-co-2026-12",
+      "name": "BlackPanda Labs CTF 2026 | Free International Cybersecurity Competition",
+      "organiser": {
+        "name": "blackpandalabs",
+        "type": "company"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "cybersecurity",
+        "ai",
+        "open-source"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-12-08",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 2
+      },
+      "eligibility": "open",
+      "url": "https://unstop.com/hackathons/blackpanda-labs-ctf-2026-free-international-cybersecurity-competition-blackpandalabs-1825506",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3474,7 +3260,35 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
+      "locked": false
+    },
+    {
+      "id": "parallax-hackathon-2026-2026-12",
+      "name": "Parallax Hackathon 2026",
+      "organiser": {
+        "name": "Invoqe",
+        "type": "company"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-12-08",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 4
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/parallax-hackathon-2026-invoqe-1826157",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3505,7 +3319,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3533,18 +3347,18 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
-      "id": "mogoj-dholai-2026-12",
-      "name": "Mogoj Dholai",
+      "id": "adaptics-open-innovation-hackathon-2026-12",
+      "name": "Adaptics - Open Innovation Hackathon",
       "organiser": {
-        "name": "Department of Information Technology, Jadavpur University",
-        "type": "university"
+        "name": "Makers Need More (MnM)",
+        "type": "company"
       },
-      "scope": "city",
-      "mode": "in-person",
+      "scope": "india",
+      "mode": "online",
       "themes": [
         "ai"
       ],
@@ -3552,7 +3366,7 @@
       "ends": null,
       "registration_closes": "2026-12-09",
       "prize": {
-        "amount": 3000,
+        "amount": 2000,
         "currency": "INR"
       },
       "team": {
@@ -3560,13 +3374,12 @@
         "max": 1
       },
       "eligibility": "open",
-      "url": "https://unstop.com/hackathons/mogoj-dholai-kernel-10-department-of-information-technology-jadavpur-university-1822588",
+      "url": "https://unstop.com/hackathons/adaptics-open-innovation-hackathon-makers-need-more-mnm-1823604",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-11-22",
-      "last_seen": "2026-11-23",
-      "locked": false,
-      "city": "Kolkata"
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "locked": false
     },
     {
       "id": "cpp-competitive-programming-potpourri-2026-12",
@@ -3596,7 +3409,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -3627,14 +3440,14 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
-      "id": "code-conquest-2026-12",
-      "name": "Code Conquest",
+      "id": "mogoj-dholai-cp-contest-2026-12",
+      "name": "Mogoj Dholai (CP contest)",
       "organiser": {
-        "name": "Indian Institute of Technology (IIT), Madras",
+        "name": "Department of Information Technology, Jadavpur University",
         "type": "university"
       },
       "scope": "city",
@@ -3646,25 +3459,25 @@
       "ends": null,
       "registration_closes": "2026-12-10",
       "prize": {
-        "amount": 20000,
+        "amount": 3000,
         "currency": "INR"
       },
       "team": {
-        "min": 2,
-        "max": 3
+        "min": 1,
+        "max": 1
       },
       "eligibility": "students",
-      "url": "https://unstop.com/hackathons/code-conquest-shaastra-2027-iit-madras-1783515",
+      "url": "https://unstop.com/hackathons/mogoj-dholai-kernel-10-department-of-information-technology-jadavpur-university-1822588",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-11-05",
-      "last_seen": "2026-11-23",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
       "locked": false,
-      "city": "Chennai"
+      "city": "Kolkata"
     },
     {
-      "id": "data-nilaam-2026-12",
-      "name": "Data Nilaam",
+      "id": "data-nilaam-ml-event-2026-12",
+      "name": "Data Nilaam (ML Event)",
       "organiser": {
         "name": "Department of Information Technology, Jadavpur University",
         "type": "university"
@@ -3689,10 +3502,43 @@
       "url": "https://unstop.com/hackathons/data-nilaam-kernel-10-department-of-information-technology-jadavpur-university-1822546",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-11-22",
-      "last_seen": "2026-11-23",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Kolkata"
+    },
+    {
+      "id": "hack-the-hardware-2026-12",
+      "name": "Hack The Hardware",
+      "organiser": {
+        "name": "St. Vincent Pallotti College of Engineering and Technology (SVPCET), Nagpur",
+        "type": "university"
+      },
+      "scope": "city",
+      "mode": "in-person",
+      "themes": [
+        "hardware",
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-12-11",
+      "prize": {
+        "amount": 30000,
+        "currency": "INR"
+      },
+      "team": {
+        "min": 1,
+        "max": 4
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/hack-the-hardware-st-vincent-pallotti-college-of-engineering-and-technology-svpcet-nagpur-1820851",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
+      "locked": false,
+      "city": "Nagpur"
     },
     {
       "id": "hackathon-2026-12",
@@ -3722,7 +3568,70 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
+      "locked": false
+    },
+    {
+      "id": "hojohborolo-dev-event-2026-12",
+      "name": "Hojohborolo (Dev Event)",
+      "organiser": {
+        "name": "Department of Information Technology, Jadavpur University",
+        "type": "university"
+      },
+      "scope": "city",
+      "mode": "in-person",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-12-11",
+      "prize": {
+        "amount": 3000,
+        "currency": "INR"
+      },
+      "team": {
+        "min": 2,
+        "max": 3
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/hojohborolo-kernel-10-department-of-information-technology-jadavpur-university-1822587",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "locked": false,
+      "city": "Kolkata"
+    },
+    {
+      "id": "india-ai-open-2026-free-ai-talent-contest-for-students-and-e-2026-12",
+      "name": "India AI Open 2026: Free AI Talent Contest for Students and Engineers",
+      "organiser": {
+        "name": "AccioJob",
+        "type": "company"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-12-11",
+      "prize": {
+        "amount": 50000,
+        "currency": "INR"
+      },
+      "team": {
+        "min": 1,
+        "max": 1
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/india-ai-open-2026-free-ai-talent-contest-for-students-and-engineers-acciojob-1820502",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3753,7 +3662,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-24",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3781,7 +3690,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Bangalore"
     },
@@ -3810,7 +3719,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -3842,7 +3751,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3873,7 +3782,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Nagpur"
     },
@@ -3906,7 +3815,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -3935,7 +3844,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -3963,41 +3872,8 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-22",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
-    },
-    {
-      "id": "hack-the-hardware-2026-12",
-      "name": "Hack The Hardware",
-      "organiser": {
-        "name": "St. Vincent Pallotti College of Engineering and Technology (SVPCET), Nagpur",
-        "type": "university"
-      },
-      "scope": "city",
-      "mode": "in-person",
-      "themes": [
-        "hardware",
-        "ai"
-      ],
-      "starts": null,
-      "ends": null,
-      "registration_closes": "2026-12-15",
-      "prize": {
-        "amount": 30000,
-        "currency": "INR"
-      },
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "open",
-      "url": "https://unstop.com/hackathons/hack-the-hardware-st-vincent-pallotti-college-of-engineering-and-technology-svpcet-nagpur-1820851",
-      "source": "unstop",
-      "source_url": "https://unstop.com/hackathons",
-      "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
-      "locked": false,
-      "city": "Nagpur"
     },
     {
       "id": "hackz-26-2026-12",
@@ -4028,7 +3904,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4059,7 +3935,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4088,7 +3964,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4120,7 +3996,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-21",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Mumbai"
     },
@@ -4150,7 +4026,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4179,7 +4055,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4210,7 +4086,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4242,7 +4118,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-15",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4270,7 +4146,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4301,7 +4177,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Mumbai"
     },
@@ -4336,9 +4212,37 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Bangalore"
+    },
+    {
+      "id": "openverse-26-2026-12",
+      "name": "OpenVerse '26",
+      "organiser": {
+        "name": "Campus Code",
+        "type": "company"
+      },
+      "scope": "india",
+      "mode": "online",
+      "themes": [
+        "ai"
+      ],
+      "starts": null,
+      "ends": null,
+      "registration_closes": "2026-12-24",
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 4
+      },
+      "eligibility": "students",
+      "url": "https://unstop.com/hackathons/openverse-26-campus-code-1821473",
+      "source": "unstop",
+      "source_url": "https://unstop.com/hackathons",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "locked": false
     },
     {
       "id": "claude-build-challenge-2026-2026-12",
@@ -4365,7 +4269,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4393,7 +4297,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4427,7 +4331,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Mumbai"
     },
@@ -4449,14 +4353,14 @@
       "prize": null,
       "team": {
         "min": 2,
-        "max": 4
+        "max": 5
       },
       "eligibility": "students",
       "url": "https://unstop.com/hackathons/hacksprint-30-karpagam-academy-of-higher-education-1778597",
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Coimbatore"
     },
@@ -4488,7 +4392,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-14",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4518,7 +4422,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4549,7 +4453,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4581,7 +4485,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4613,7 +4517,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-20",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4642,7 +4546,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-01",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Mumbai"
     },
@@ -4672,7 +4576,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4701,7 +4605,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4732,7 +4636,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Delhi NCR"
     },
@@ -4764,7 +4668,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Kolkata"
     },
@@ -4796,7 +4700,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Indore"
     },
@@ -4826,7 +4730,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4855,7 +4759,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4884,7 +4788,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4913,7 +4817,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4942,7 +4846,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4971,7 +4875,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -4999,7 +4903,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Chennai"
     },
@@ -5029,7 +4933,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5058,7 +4962,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5087,7 +4991,36 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
+      "locked": false
+    },
+    {
+      "id": "hackbu-2027-01",
+      "name": "HackBU",
+      "organiser": {
+        "name": "Major League Hacking",
+        "type": "community"
+      },
+      "scope": "global",
+      "mode": "in-person",
+      "themes": [
+        "other"
+      ],
+      "starts": "2027-01-30",
+      "ends": "2027-01-31",
+      "registration_closes": null,
+      "prize": null,
+      "team": {
+        "min": 1,
+        "max": 4
+      },
+      "eligibility": "students",
+      "location": "Vestal, NY",
+      "url": "https://hackbu.org/",
+      "source": "mlh",
+      "source_url": "https://www.mlh.com/seasons/2027/events",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5118,7 +5051,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-12",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5147,7 +5080,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5176,7 +5109,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5205,7 +5138,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5234,7 +5167,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5263,7 +5196,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5292,7 +5225,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5321,7 +5254,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5350,7 +5283,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5379,36 +5312,7 @@
       "source": "mlh",
       "source_url": "https://www.mlh.com/seasons/2027/events",
       "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
-      "locked": false
-    },
-    {
-      "id": "hacklytics-2027-2027-02",
-      "name": "Hacklytics 2027",
-      "organiser": {
-        "name": "Major League Hacking",
-        "type": "community"
-      },
-      "scope": "global",
-      "mode": "in-person",
-      "themes": [
-        "other"
-      ],
-      "starts": "2027-02-26",
-      "ends": "2027-02-28",
-      "registration_closes": null,
-      "prize": null,
-      "team": {
-        "min": 1,
-        "max": 4
-      },
-      "eligibility": "students",
-      "location": "Atlanta, GA",
-      "url": "https://hacklytics2027.web.app/",
-      "source": "mlh",
-      "source_url": "https://www.mlh.com/seasons/2027/events",
-      "first_seen": "2026-11-23",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5439,7 +5343,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5470,7 +5374,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Pune"
     },
@@ -5503,7 +5407,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5534,7 +5438,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Pune"
     },
@@ -5566,7 +5470,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5597,7 +5501,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Pune"
     },
@@ -5629,7 +5533,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false,
       "city": "Pune"
     },
@@ -5658,7 +5562,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     },
     {
@@ -5689,7 +5593,7 @@
       "source": "unstop",
       "source_url": "https://unstop.com/hackathons",
       "first_seen": "2026-11-08",
-      "last_seen": "2026-11-23",
+      "last_seen": "2026-11-24",
       "locked": false
     }
   ]
